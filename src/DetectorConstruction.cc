@@ -63,7 +63,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
   G4Material* g4matGe = nist->FindOrBuildMaterial("G4_Ge");
   G4Material* g4matAl = nist->FindOrBuildMaterial("G4_Al");
   G4Material* g4matCu = nist->FindOrBuildMaterial("G4_Cu");
-  G4Material* g4matB = nist->FindOrBuildMaterial("G4_B");
+  G4Material* g4matFe = nist->FindOrBuildMaterial("G4_Fe");
 
   // Envelope parameters
   //
@@ -208,7 +208,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
     0,
     2*CLHEP::pi);
 
-  G4double poszBWindow = dWellpDz - dBoAlpDz;
+  G4double poszBWindow = dTAlpDz - dWellpDz + dTAlpDz + dBoAlpDz;
   G4ThreeVector posBWindow = G4ThreeVector(0, 0, poszBWindow);
 
   auto logicBWindow = new G4LogicalVolume(solidBWindow,  // its solid
@@ -232,11 +232,11 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
   auto solidHolder = new G4Tubs("Holder",
     dHolderpRMin,
     dHolderpRMax,
-    dHolderpDz,
+    dAlHolderpDz,
     0,
     2*CLHEP::pi);
 
-  G4double poszHolder = dWellpDz - dHolderpDz - 2 * dBoAlpDz;
+  G4double poszHolder = dTAlpDz - dWellpDz + dTAlpDz - dAlHolderpDz;
   G4ThreeVector posHolder = G4ThreeVector(0, 0, poszHolder);
 
   auto logicHolder = new G4LogicalVolume(solidHolder,  // its solid
@@ -251,6 +251,36 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
     false,                    // no boolean operation
     0,                        // copy number
     checkOverlaps);           // overlaps checking
+  // const bool sourceflag = true;
+
+  #if 0
+  // Fe source holder of Target
+  G4double dSourceHolderpRMin = 0;
+  G4double dSourceHolderpRMax = 11 / 2.0 * CLHEP::mm;
+  auto solidSourceHolder = new G4Tubs("SourceHolder",
+    dSourceHolderpRMin,
+    dSourceHolderpRMax,
+    dSourceHolderpDz,
+    0,
+    2*CLHEP::pi);
+
+  G4double poszSourceHolder = dTAlpDz - dWellpDz + dTAlpDz - 2 * dAlHolderpDz - dSourceHolderpDz;
+  G4ThreeVector posSourceHolder = G4ThreeVector(0, 0, poszSourceHolder);
+  G4Material* SourceHolder_mat = g4matFe;
+  auto logicSourceHolder = new G4LogicalVolume(solidSourceHolder,  // its solid
+  SourceHolder_mat,                                        // its material
+  "SourceHolder");                                         // its name
+
+  auto physSourceHolder = new G4PVPlacement(nullptr,  // no rotation
+    posSourceHolder,                     // at position
+    logicSourceHolder,              // its logical volume
+    "SourceHolder",                 // its name
+    logicWell,                 // its mother  volume
+    false,                    // no boolean operation
+    0,                        // copy number
+    checkOverlaps);           // overlaps checking
+
+  #endif
 
   // Ge Deadlayer
   G4double dDeadlayerpRMin = dWellpRMax;
@@ -301,6 +331,221 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
     0,                        // copy number
     checkOverlaps);           // overlaps checking
 
+  auto solidoutupDeadlayer = new G4Tubs("outupDeadlayer",
+    dDeadlayerpRMax,
+    dGepRMax,
+    dBDeadlayerpDz,
+    0,
+    2*CLHEP::pi);
+  
+  G4double poszoutupDeadlayer = - dGepDz + dBDeadlayerpDz;
+  G4ThreeVector posoutupDeadlayer = G4ThreeVector(0, 0, poszoutupDeadlayer);
+
+  auto logicoutupDeadlayer = new G4LogicalVolume(solidoutupDeadlayer,  // its solid
+    Ge_mat,                                        // its material
+    "outupDeadlayer");                                         // its name
+  
+  auto physoutupDeadlayer = new G4PVPlacement(nullptr,  // no rotation
+    posoutupDeadlayer,                     // at position
+    logicoutupDeadlayer,              // its logical volume
+    "outupDeadlayer",                 // its name
+    logicGe,                 // its mother  volume
+    false,                    // no boolean operation
+    0,                        // copy number
+    checkOverlaps);           // overlaps checking
+
+  auto solidoutTDeadlayer = new G4Tubs("outTDeadlayer",
+    dGepRMax - 2 * dBDeadlayerpDz,
+    dGepRMax,
+    dGepDz - dBDeadlayerpDz * 2,
+    0,
+    2*CLHEP::pi);
+  
+  G4ThreeVector posoutTDeadlayer = G4ThreeVector(0, 0, 0);
+
+  auto logicoutTDeadlayer = new G4LogicalVolume(solidoutTDeadlayer,  // its solid
+    Ge_mat,                                        // its material
+    "outTDeadlayer");                                         // its name
+  
+  auto physoutTDeadlayer = new G4PVPlacement(nullptr,  // no rotation
+    posoutTDeadlayer,                     // at position
+    logicoutTDeadlayer,              // its logical volume
+    "outTDeadlayer",                 // its name
+    logicGe,                 // its mother  volume
+    false,                    // no boolean operation
+    0,                        // copy number
+    checkOverlaps);           // overlaps checking
+
+  auto solidoutBoDeadlayer = new G4Tubs("outBoDeadlayer",
+    0,
+    dGepRMax,
+    dBDeadlayerpDz,
+    0,
+    2*CLHEP::pi);
+  
+  G4double poszoutBoDeadlayer = dGepDz - dBDeadlayerpDz;
+  G4ThreeVector posoutBoDeadlayer = G4ThreeVector(0, 0, poszoutBoDeadlayer);
+
+  auto logicoutBoDeadlayer = new G4LogicalVolume(solidoutBoDeadlayer,  // its solid
+    Ge_mat,                                        // its material
+    "outBoDeadlayer");                                         // its name
+  
+  auto physoutBoDeadlayer = new G4PVPlacement(nullptr,  // no rotation
+    posoutBoDeadlayer,                     // at position
+    logicoutBoDeadlayer,              // its logical volume
+    "outBoDeadlayer",                 // its name
+    logicGe,                 // its mother  volume
+    false,                    // no boolean operation
+    0,                        // copy number
+    checkOverlaps);           // overlaps checking
+
+  //upTWindow
+  auto solidupTWindow = new G4Tubs("upTWindow",
+    dTAlpRMin,
+    dTAlpRMax,
+    dupTAlpDz,
+    0,
+    2*CLHEP::pi);
+
+  G4double poszupTWindow = -dupTAlpDz;
+  G4ThreeVector posupTWindow = G4ThreeVector(0, 0, poszupTWindow);
+
+  auto logicupTWindow = new G4LogicalVolume(solidupTWindow,  // its solid
+  Window_mat,                                        // its material
+  "upTWindow");                                         // its name
+
+  auto physupTWindow = new G4PVPlacement(nullptr,  // no rotation
+    posupTWindow,                     // at position
+    logicupTWindow,              // its logical volume
+    "upTWindow",                 // its name
+    logicEnv,                 // its mother  volume
+    false,                    // no boolean operation
+    0,                        // copy number
+    checkOverlaps);           // overlaps checking
+
+  //upBoWindow
+  auto solidupBoWindow = new G4Tubs("upBoWindow",
+    dupBoAlpRMin,
+    dupBoAlpRMax,
+    dupBoAlpDz,
+    0,
+    2*CLHEP::pi);
+
+  G4double poszupBoWindow = - 2 * dupTAlpDz + dupBoAlpDz;
+  G4ThreeVector posupBoWindow = G4ThreeVector(0, 0, poszupBoWindow);
+
+  auto logicupBoWindow = new G4LogicalVolume(solidupBoWindow,  // its solid
+  Window_mat,                                        // its material
+  "upBoWindow");                                         // its name
+
+  auto physupBoWindow = new G4PVPlacement(nullptr,  // no rotation
+    posupBoWindow,                     // at position
+    logicupBoWindow,              // its logical volume
+    "upBoWindow",                 // its name
+    logicEnv,                 // its mother  volume
+    false,                    // no boolean operation
+    0,                        // copy number
+    checkOverlaps);           // overlaps checking
+
+  //upCoCup
+  auto solidupCoCup = new G4Tubs("upCoCup",
+    dupCupRMin,
+    dupCupRMax,
+    dupCupDz,
+    0,
+    2*CLHEP::pi);
+  
+  G4double poszupCoCup = - dupCupGeDistance - dupCupDz;
+  G4ThreeVector posupCoCup = G4ThreeVector(0, 0, poszupCoCup);
+
+  auto logicupCoCup = new G4LogicalVolume(solidupCoCup,  // its solid
+    g4matCu,                                        // its material
+    "upCoCup");                                         // its name
+  
+  auto physupCoCup = new G4PVPlacement(nullptr,  // no rotation
+    posupCoCup,                     // at position
+    logicupCoCup,              // its logical volume
+    "upCoCup",                 // its name
+    logicEnv,                 // its mother  volume
+    false,                    // no boolean operation
+    0,                        // copy number
+    checkOverlaps);           // overlaps checking
+
+  //TCoCup
+  auto solidTCoCup = new G4Tubs("TCoCup",
+    dTCupRMin,
+    dTCupRMax,
+    dTCupDz,
+    0,
+    2*CLHEP::pi);
+  
+  G4double poszTCoCup = dTCupDz - dupCupGeDistance - dCupCuthickness;
+  G4ThreeVector posTCoCup = G4ThreeVector(0, 0, poszTCoCup);
+
+  auto logicTCoCup = new G4LogicalVolume(solidTCoCup,  // its solid
+    g4matCu,                                        // its material
+    "TCoCup");                                         // its name
+  
+  auto physTCoCup = new G4PVPlacement(nullptr,  // no rotation
+    posTCoCup,                     // at position
+    logicTCoCup,              // its logical volume
+    "TCoCup",                 // its name
+    logicEnv,                 // its mother  volume
+    false,                    // no boolean operation
+    0,                        // copy number
+    checkOverlaps);           // overlaps checking
+  
+  //BoCoCup
+  auto solidBoCoCup = new G4Tubs("BoCoCup",
+    0,
+    dupCupRMax,
+    dupCupDz,
+    0,
+    2*CLHEP::pi);
+  
+  G4double poszBoCoCup = dGepDz * 2 + dupCupDz;
+  G4ThreeVector posBoCoCup = G4ThreeVector(0, 0, poszBoCoCup);
+
+  auto logicBoCoCup = new G4LogicalVolume(solidBoCoCup,  // its solid
+    g4matCu,                                        // its material
+    "BoCoCup");                                         // its name
+  
+  auto physBoCoCup = new G4PVPlacement(nullptr,  // no rotation
+    posBoCoCup,                     // at position
+    logicBoCoCup,              // its logical volume
+    "BoCoCup",                 // its name
+    logicEnv,                 // its mother  volume
+    false,                    // no boolean operation
+    0,                        // copy number
+    checkOverlaps);           // overlaps checking
+
+  //upCoEndcup
+  auto solidupCoEndcup = new G4Tubs("upCoEndcup",
+    dupEndcupRMin,
+    dupEndcupRMax,
+    dupEndcupDz,
+    0,
+    2*CLHEP::pi);
+
+  G4double poszupCoEndcup = poszupBoWindow;
+  G4ThreeVector posupCoEndcup = G4ThreeVector(0, 0, poszupCoEndcup);
+
+  auto logicupCoEndcup = new G4LogicalVolume(solidupCoEndcup,  // its solid
+    g4matCu,                                        // its material
+    "upCoEndcup");                                         // its name
+
+  auto physupCoEndcup = new G4PVPlacement(nullptr,  // no rotation
+    posupCoEndcup,                     // at position
+    logicupCoEndcup,              // its logical volume
+    "upCoEndcup",                 // its name
+    logicEnv,                 // its mother  volume
+    false,                    // no boolean operation
+    0,                        // copy number
+    checkOverlaps);           // overlaps checking
+
+
+
+
   // Set HPGe detector as scoring volume
   //
   fScoringVolume = logicGe;
@@ -311,13 +556,22 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
   G4VisAttributes* visair = new G4VisAttributes(G4Colour(0.3,0.5,0.3,0.4));
   G4VisAttributes* visAl = new G4VisAttributes(G4Colour(0.,0.,0.5,0.5));
   G4VisAttributes* visDl = new G4VisAttributes(G4Colour(0.5,0.,0.,0.5));
+  G4VisAttributes* visCu = new G4VisAttributes(G4Colour(0.5,0.5,0.,0.5));
   logicGe -> SetVisAttributes(visGe);
-  logicWell -> SetVisAttributes(visair);
+  logicWell -> SetVisAttributes(visGe);
   logicWindow -> SetVisAttributes(visAl);
   logicBWindow -> SetVisAttributes(visAl);
   logicHolder -> SetVisAttributes(visAl);
   logicDeadlayer -> SetVisAttributes(visDl);
   logicBDeadlayer -> SetVisAttributes(visDl);
+  logicoutupDeadlayer -> SetVisAttributes(visDl);
+  logicoutTDeadlayer -> SetVisAttributes(visDl);
+  logicoutBoDeadlayer -> SetVisAttributes(visDl);
+  logicupBoWindow -> SetVisAttributes(visAl);
+  logicupTWindow -> SetVisAttributes(visAl);
+  logicupCoCup -> SetVisAttributes(visCu);
+  logicTCoCup -> SetVisAttributes(visCu);
+  logicBoCoCup -> SetVisAttributes(visCu);
 
   //
   //always return the physical World

@@ -55,6 +55,7 @@ set(EXAMPLEB1_SCRIPTS
   run2055.mac
   run2057.mac
   run2058.mac
+  runeffdemo.mac
   vis.mac
   tsg_offscreen.mac
   )

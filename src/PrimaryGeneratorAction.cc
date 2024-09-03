@@ -84,14 +84,23 @@ void PrimaryGeneratorAction::GeneratePrimaries(G4Event *anEvent)
     fParticleGun->SetParticleCharge(ionCharge);
   }
 
-  G4double circleRadius = 9.0 * mm;
+  // G4double circleRadius = 4.5 * mm;
+  G4double circleRadius = 7.5 * mm;
   // Generate random radius within circle, sqrt for uniform distribution
   G4double r = sqrt(G4UniformRand()) * circleRadius;
   // Generate random angle
   G4double theta = G4UniformRand() * 2.0 * M_PI;
   G4double x0 = r * cos(theta);
   G4double y0 = r * sin(theta);
-  fParticleGun->SetParticlePosition(G4ThreeVector(x0, y0, 2 * dTAlpDz - 0.1 * mm));
+  #if 0
+  fParticleGun->SetParticleMomentumDirection(G4RandomDirection());
+  fParticleGun->SetParticlePosition(G4ThreeVector(x0, y0, 2 * dTAlpDz - dBoAlpDz * 2 - dAlHolderpDz * 2 - dSourceHolderpDz * 2 - 0.1));
+  #endif
+  #if 1
+  fParticleGun->SetParticleMomentumDirection(G4RandomDirection());
+  // fParticleGun->SetParticlePosition(G4ThreeVector(x0, y0, 2 * dTAlpDz - dBoAlpDz * 2 - dAlHolderpDz * 2 - 0.5));
+  fParticleGun->SetParticlePosition(G4ThreeVector(x0, y0, - 2 * dupTAlpDz - 2));
+  #endif
 
   fParticleGun->GeneratePrimaryVertex(anEvent); 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......

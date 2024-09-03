@@ -7,7 +7,7 @@ cp toHis.cpp build
 cp haddhis.cc build
 cd build
 cmake ..
-for i in {1..9}
+for i in {16..45}
 do
     cd /home/apricot/Desktop/run2407/
     # 调整参数  
