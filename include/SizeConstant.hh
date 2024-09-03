@@ -10,7 +10,7 @@ const G4double dWellpDz = 50 / 2.0 * CLHEP::mm; //const
 const G4double dWellpRMax = sqrt((CLHEP::pi * dGepRMax * dGepRMax * dGepDz * 2 - 349000) / (dWellpDz * 2 * CLHEP::pi));
 // const G4double dWellpRMax = 34.5 / 2 * CLHEP::mm;
 
-const G4double dAlthickness = 0.6 * CLHEP::mm;
+const G4double dAlthickness = 0.65 * CLHEP::mm;
 const G4double dTAlpRMin = 15.5 / 2 * CLHEP::mm;
 const G4double dTAlpRMax = dTAlpRMin + dAlthickness;//const
 const G4double dTAlpDz = 40/2.0;
@@ -25,7 +25,7 @@ const G4double dAlHolderpDz = 0.25  / 2.0 * CLHEP::mm; //const
 const G4double dSourceHolderpDz = 1 / 2.0 * CLHEP::mm;
 
 
-const G4double dupTAlpDz = 12.5 / 2.0 * CLHEP::mm;
+const G4double dupTAlpDz = 10 / 2.0 * CLHEP::mm;
 
 const G4double dupBoAlpDz = dAlthickness/2.0;
 const G4double dupBoAlpRMin = dTAlpRMax;

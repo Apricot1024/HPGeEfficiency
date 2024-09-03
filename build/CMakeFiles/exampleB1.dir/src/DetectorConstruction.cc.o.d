@@ -1,7 +1,7 @@
 CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o: \
- /home/apricot/Desktop/run2407/src/DetectorConstruction.cc \
+ /home/apricot/Desktop/HPGeEfficiency/src/DetectorConstruction.cc \
  /usr/include/stdc-predef.h \
- /home/apricot/Desktop/run2407/include/DetectorConstruction.hh \
+ /home/apricot/Desktop/HPGeEfficiency/include/DetectorConstruction.hh \
  /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4VUserDetectorConstruction.hh \
  /opt/Geant4/Geant4-v11.2.1/include/Geant4/globals.hh \
  /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4ios.hh \
@@ -530,7 +530,7 @@ CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o: \
  /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4Material.hh \
  /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4UnitsTable.hh \
  /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4UnitsTable.icc \
- /home/apricot/Desktop/run2407/include/SizeConstant.hh \
+ /home/apricot/Desktop/HPGeEfficiency/include/SizeConstant.hh \
  /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4VisAttributes.hh \
  /opt/Geant4/Geant4-v11.2.1/include/Geant4/graphics_reps_defs.hh \
  /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4Colour.hh \

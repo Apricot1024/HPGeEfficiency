@@ -1,7 +1,7 @@
 CMakeFiles/exampleB1.dir/src/EventAction.cc.o: \
- /home/apricot/Desktop/run2407/src/EventAction.cc \
+ /home/apricot/Desktop/HPGeEfficiency/src/EventAction.cc \
  /usr/include/stdc-predef.h \
- /home/apricot/Desktop/run2407/include/EventAction.hh \
+ /home/apricot/Desktop/HPGeEfficiency/include/EventAction.hh \
  /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4UserEventAction.hh \
  /opt/Geant4/Geant4-v11.2.1/include/Geant4/globals.hh \
  /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4ios.hh \
@@ -212,7 +212,7 @@ CMakeFiles/exampleB1.dir/src/EventAction.cc.o: \
  /usr/include/c++/14.2.1/bits/parse_numbers.h \
  /usr/include/c++/14.2.1/bits/std_mutex.h \
  /usr/include/c++/14.2.1/bits/unique_lock.h \
- /home/apricot/Desktop/run2407/include/RunAction.hh \
+ /home/apricot/Desktop/HPGeEfficiency/include/RunAction.hh \
  /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4UserRunAction.hh \
  /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4Accumulable.hh \
  /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4VAccumulable.hh \
@@ -500,7 +500,7 @@ CMakeFiles/exampleB1.dir/src/EventAction.cc.o: \
  /opt/Geant4/Geant4-v11.2.1/include/Geant4/rundefs.hh \
  /usr/include/c++/14.2.1/list /usr/include/c++/14.2.1/bits/stl_list.h \
  /usr/include/c++/14.2.1/bits/list.tcc \
- /home/apricot/Desktop/run2407/include/HistoManager.hh \
+ /home/apricot/Desktop/HPGeEfficiency/include/HistoManager.hh \
  /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4AnalysisManager.hh \
  /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4GenericAnalysisManager.hh \
  /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4ToolsAnalysisManager.hh \

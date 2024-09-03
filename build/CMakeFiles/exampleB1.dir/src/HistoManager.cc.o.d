@@ -1,7 +1,7 @@
 CMakeFiles/exampleB1.dir/src/HistoManager.cc.o: \
- /home/apricot/Desktop/run2407/src/HistoManager.cc \
+ /home/apricot/Desktop/HPGeEfficiency/src/HistoManager.cc \
  /usr/include/stdc-predef.h \
- /home/apricot/Desktop/run2407/include/HistoManager.hh \
+ /home/apricot/Desktop/HPGeEfficiency/include/HistoManager.hh \
  /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4AnalysisManager.hh \
  /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4GenericAnalysisManager.hh \
  /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4ToolsAnalysisManager.hh \

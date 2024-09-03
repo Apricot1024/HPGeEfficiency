@@ -1,7 +1,7 @@
 #! /bin/zsh
 
 
-cd /home/apricot/Desktop/run2407/
+cd /home/apricot/Desktop/HPGeEfficiency/
 # 调整参数  
 # python3 adPara.py $i
 # Geant4模拟
@@ -22,16 +22,16 @@ do
     root -l -q 'toHis.cpp'
     mv AnaEx01.root 58AnaEx01.root
     root -l -q 'haddhis.cc'
-    cp AnaEx01.root ../../gamma_ana/sim_root2407/${j}AnaEx01.root
+    cp AnaEx01.root ../../20240822gamma_ana/sim_root2407/${j}AnaEx01.root
     mv AnaEx01.root ../rootfile/${j}AnaEx01_50.root
 done
 
 # 生成效率数据
-cd ../../gamma_ana
+cd ../../20240822gamma_ana
 python3 ./src/sim_rundemo.py 50
 python3 ./src/plot_compare_demo.py 50
 
 # 存储数据
 rm ./sim_root2407/*AnaEx01.root
-cp ./sim_root2407/*.txt ../run2407/simulatedEffdata/
+cp ./sim_root2407/*.txt ../HPGeEfficiency/simulatedEffdata/
 # rm -rf ./sim_root2407/*.txt

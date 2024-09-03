@@ -30,6 +30,7 @@
 #include "PhysicsList.hh"
 
 #include "G4DecayPhysics.hh"
+#include "G4EmLowEPPhysics.hh"
 #include "G4EmStandardPhysics.hh"
 #include "G4RadioactiveDecayPhysics.hh"
 #include "G4PhysListFactory.hh"
@@ -52,8 +53,8 @@ PhysicsList::PhysicsList()
   RegisterPhysics(new G4DecayPhysics());
 
   // EM physics
-  RegisterPhysics(new G4EmStandardPhysics());
-
+  // RegisterPhysics(new G4EmStandardPhysics());
+  RegisterPhysics(new G4EmLowEPPhysics());
   // Radioactive decay
   RegisterPhysics(new G4RadioactiveDecayPhysics());
   // RegisterPhysics(new G4Decay());

@@ -1,7 +1,7 @@
 CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o: \
- /home/apricot/Desktop/run2407/src/PrimaryGeneratorAction.cc \
+ /home/apricot/Desktop/HPGeEfficiency/src/PrimaryGeneratorAction.cc \
  /usr/include/stdc-predef.h \
- /home/apricot/Desktop/run2407/include/PrimaryGeneratorAction.hh \
+ /home/apricot/Desktop/HPGeEfficiency/include/PrimaryGeneratorAction.hh \
  /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
  /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4ParticleGun.hh \
  /opt/Geant4/Geant4-v11.2.1/include/Geant4/globals.hh \
@@ -517,6 +517,6 @@ CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o: \
  /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4IonTable.hh \
  /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4Ions.hh \
  /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4ChargedGeantino.hh \
- /home/apricot/Desktop/run2407/include/SizeConstant.hh \
+ /home/apricot/Desktop/HPGeEfficiency/include/SizeConstant.hh \
  /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4UnitsTable.hh \
  /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4UnitsTable.icc
