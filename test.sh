@@ -7,7 +7,8 @@ cd /home/apricot/Desktop/HPGeEfficiency/
 # Geant4模拟
 cd build
 make
-for j in {18..20}
+# for j in {18..20}
+for j in {18}
 do
     ./exampleB1 run${j}55.mac > log.txt
     rm log.txt
