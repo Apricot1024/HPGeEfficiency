@@ -585,3 +585,8 @@ CoulombScat:  for pi- XStype:1 SubType=1 BuildTable=1
 
 G4VisManager: Using G4TrajectoryDrawByCharge as fallback trajectory model.
 See commands in /vis/modeling/trajectories/ for other options.
+
+==============================================================================================
+--> G4TaskRunManager::CreateAndStartWorkers() --> Creating 1000 tasks with 1000 events/task...
+==============================================================================================
+

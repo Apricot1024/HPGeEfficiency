@@ -3608,9 +3608,8 @@ CMakeFiles/exampleB1.dir/src/PhysicsList.cc.o: /home/apricot/Documents/HPGeEffic
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/syslimits.h
 
 CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o: /home/apricot/Documents/HPGeEfficiency/src/PrimaryGeneratorAction.cc \
-  /home/apricot/Desktop/HPGeEfficiency/include/PrimaryGeneratorAction.hh \
-  /home/apricot/Desktop/HPGeEfficiency/include/SizeConstant.hh \
-  /home/apricot/Desktop/HPGeEfficiency/src/PrimaryGeneratorAction.cc \
+  /home/apricot/Documents/HPGeEfficiency/include/PrimaryGeneratorAction.hh \
+  /home/apricot/Documents/HPGeEfficiency/include/SizeConstant.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Geometry/Normal3D.h \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Geometry/Point3D.h \
@@ -5587,6 +5586,8 @@ exampleB1: /usr/lib/libc.so \
 
 /usr/lib/libbrotlidec.so.1:
 
+/usr/lib/libb2.so.1:
+
 /usr/include/c++/14.2.1/bit:
 
 /usr/include/bits/types/__sigset_t.h:
@@ -6869,6 +6870,8 @@ exampleB1: /usr/lib/libc.so \
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Region.icc:
 
+/home/apricot/Documents/HPGeEfficiency/include/PrimaryGeneratorAction.hh:
+
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4RegularNavigation.hh:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Random/Random.h:
@@ -7192,12 +7195,6 @@ exampleB1: /usr/lib/libc.so \
 /usr/include/c++/14.2.1/cwctype:
 
 /usr/include/c++/14.2.1/cxxabi.h:
-
-/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VUserTrackInformation.hh:
-
-/usr/include/bits/iscanonical.h:
-
-/usr/include/c++/14.2.1/debug/assertions.h:
 
 /usr/include/c++/14.2.1/deque:
 
@@ -7523,8 +7520,6 @@ exampleB1: /usr/lib/libc.so \
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vbmiintrin.h:
 
-/usr/lib/libb2.so.1:
-
 /usr/include/qt6/QtCore/qcontainerfwd.h:
 
 /usr/include/time.h:
@@ -7622,8 +7617,6 @@ exampleB1: /usr/lib/libc.so \
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Random/Randomize.h:
 
 /home/apricot/Desktop/HPGeEfficiency/src/PhysicsList.cc:
-
-/home/apricot/Desktop/HPGeEfficiency/src/PrimaryGeneratorAction.cc:
 
 /usr/include/c++/14.2.1/streambuf:
 
@@ -7830,6 +7823,14 @@ exampleB1: /usr/lib/libc.so \
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/QBBC.hh:
 
 /home/apricot/Documents/HPGeEfficiency/src/PrimaryGeneratorAction.cc:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VUserTrackInformation.hh:
+
+/usr/include/bits/iscanonical.h:
+
+/usr/include/c++/14.2.1/debug/assertions.h:
+
+/home/apricot/Documents/HPGeEfficiency/include/SizeConstant.hh:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4IonTable.hh:
 

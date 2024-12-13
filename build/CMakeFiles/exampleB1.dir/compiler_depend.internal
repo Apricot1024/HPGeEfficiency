@@ -3615,9 +3615,8 @@ CMakeFiles/exampleB1.dir/src/PhysicsList.cc.o
 
 CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o
  /home/apricot/Documents/HPGeEfficiency/src/PrimaryGeneratorAction.cc
- /home/apricot/Desktop/HPGeEfficiency/include/PrimaryGeneratorAction.hh
- /home/apricot/Desktop/HPGeEfficiency/include/SizeConstant.hh
- /home/apricot/Desktop/HPGeEfficiency/src/PrimaryGeneratorAction.cc
+ /home/apricot/Documents/HPGeEfficiency/include/PrimaryGeneratorAction.hh
+ /home/apricot/Documents/HPGeEfficiency/include/SizeConstant.hh
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Geometry/Normal3D.h
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Geometry/Point3D.h
