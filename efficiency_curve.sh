@@ -24,4 +24,4 @@ do
     echo ${run} 'keV simulation done'
 done
 
-python3 ./src/plot_eff_demo.py
+# python3 ./src/plot_eff_demo.py
