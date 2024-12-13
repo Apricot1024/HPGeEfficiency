@@ -1,6 +1,6 @@
 import sys
 
-ad_path = '/home/apricot/Desktop/run2407/include/SizeConstant.hh'
+ad_path = '/home/apricot/Desktop/HPGeEfficiency/include/SizeConstant.hh'
 #以读取方式打开需要修改的文件为f
 f = open(ad_path, 'r', encoding='utf-8')
 
