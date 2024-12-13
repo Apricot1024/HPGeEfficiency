@@ -98,8 +98,8 @@ void PrimaryGeneratorAction::GeneratePrimaries(G4Event *anEvent)
   #endif
   #if 0
   fParticleGun->SetParticleMomentumDirection(G4RandomDirection());
-  // fParticleGun->SetParticlePosition(G4ThreeVector(x0, y0, 2 * dTAlpDz - dBoAlpDz * 2 - dAlHolderpDz * 2 - 0.5));
-  fParticleGun->SetParticlePosition(G4ThreeVector(x0, y0, - 2 * dupTAlpDz - 2));
+  fParticleGun->SetParticlePosition(G4ThreeVector(x0, y0, 2 * dTAlpDz - dBoAlpDz * 2 - dAlHolderpDz * 2 - 0.5));
+  // fParticleGun->SetParticlePosition(G4ThreeVector(x0, y0, - 2 * dupTAlpDz - 2));
   #endif
 
   fParticleGun->GeneratePrimaryVertex(anEvent); 

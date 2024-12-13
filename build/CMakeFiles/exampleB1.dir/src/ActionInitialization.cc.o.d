@@ -1,19 +1,19 @@
 CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.o: \
- /home/apricot/Desktop/HPGeEfficiency/src/ActionInitialization.cc \
+ /home/apricot/Documents/HPGeEfficiency/src/ActionInitialization.cc \
  /usr/include/stdc-predef.h \
- /home/apricot/Desktop/HPGeEfficiency/include/ActionInitialization.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4VUserActionInitialization.hh \
- /home/apricot/Desktop/HPGeEfficiency/include/HistoManager.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4AnalysisManager.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4GenericAnalysisManager.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4ToolsAnalysisManager.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4VAnalysisManager.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4AnalysisManagerState.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4AnalysisVerbose.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/globals.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4ios.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4Types.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4GlobalConfig.hh \
+ /home/apricot/Documents/HPGeEfficiency/include/ActionInitialization.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VUserActionInitialization.hh \
+ /home/apricot/Documents/HPGeEfficiency/include/HistoManager.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4AnalysisManager.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GenericAnalysisManager.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ToolsAnalysisManager.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VAnalysisManager.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4AnalysisManagerState.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4AnalysisVerbose.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/globals.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ios.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Types.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GlobalConfig.hh \
  /usr/include/c++/14.2.1/complex \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
@@ -172,7 +172,7 @@ CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.o: \
  /usr/include/c++/14.2.1/ostream /usr/include/c++/14.2.1/bits/ostream.tcc \
  /usr/include/c++/14.2.1/bits/istream.tcc \
  /usr/include/c++/14.2.1/bits/sstream.tcc \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/tls.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/tls.hh \
  /usr/include/c++/14.2.1/iostream /usr/include/c++/14.2.1/algorithm \
  /usr/include/c++/14.2.1/bits/stl_algo.h \
  /usr/include/c++/14.2.1/bits/algorithmfwd.h \
@@ -181,11 +181,11 @@ CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.o: \
  /usr/include/c++/14.2.1/bits/stl_tempbuf.h \
  /usr/include/c++/14.2.1/pstl/glue_algorithm_defs.h \
  /usr/include/c++/14.2.1/pstl/execution_defs.h \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4String.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4String.hh \
  /usr/include/c++/14.2.1/cstring /usr/include/string.h \
  /usr/include/strings.h \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4String.icc \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/templates.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4String.icc \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/templates.hh \
  /usr/include/c++/14.2.1/climits \
  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/limits.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/syslimits.h \
@@ -193,9 +193,9 @@ CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.o: \
  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
  /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
  /usr/include/bits/uio_lim.h \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4Exception.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4ExceptionSeverity.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4EnvironmentUtils.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Exception.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ExceptionSeverity.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4EnvironmentUtils.hh \
  /usr/include/c++/14.2.1/iomanip /usr/include/c++/14.2.1/locale \
  /usr/include/c++/14.2.1/bits/locale_facets_nonio.h \
  /usr/include/c++/14.2.1/ctime \
@@ -220,7 +220,7 @@ CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.o: \
  /usr/include/c++/14.2.1/bits/std_mutex.h \
  /usr/include/c++/14.2.1/bits/unique_lock.h /usr/include/c++/14.2.1/array \
  /usr/include/c++/14.2.1/compare \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4Threading.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Threading.hh \
  /usr/include/c++/14.2.1/chrono \
  /usr/include/c++/14.2.1/condition_variable \
  /usr/include/c++/14.2.1/bits/shared_ptr.h \
@@ -240,7 +240,7 @@ CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.o: \
  /usr/include/c++/14.2.1/bits/stl_vector.h \
  /usr/include/c++/14.2.1/bits/stl_bvector.h \
  /usr/include/c++/14.2.1/bits/vector.tcc \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4AnalysisUtilities.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4AnalysisUtilities.hh \
  /usr/include/c++/14.2.1/memory \
  /usr/include/c++/14.2.1/bits/stl_raw_storage_iter.h \
  /usr/include/c++/14.2.1/bits/align.h \
@@ -251,104 +251,104 @@ CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.o: \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/basic_file.h \
  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
  /usr/include/c++/14.2.1/bits/fstream.tcc \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4VTBaseHnManager.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4HnInformation.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4BinScheme.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4Fcn.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VTBaseHnManager.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4HnInformation.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4BinScheme.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Fcn.hh \
  /usr/include/c++/14.2.1/utility \
  /usr/include/c++/14.2.1/bits/stl_relops.h \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4VAnalysisManager.icc \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4HnManager.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4BaseAnalysisManager.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VAnalysisManager.icc \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4HnManager.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4BaseAnalysisManager.hh \
  /usr/include/c++/14.2.1/set /usr/include/c++/14.2.1/bits/stl_set.h \
  /usr/include/c++/14.2.1/bits/stl_multiset.h \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4NtupleBookingManager.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/tools/ntuple_booking \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/tools/cids \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/tools/cid \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/tools/typedefs \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/tools/forit \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4NtupleBookingManager.icc \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4VNtupleManager.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4VFileManager.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4BaseFileManager.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4VTHnFileManager.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4TH1ToolsManager.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4THnToolsManager.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4THnManager.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4THnManager.icc \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4AutoLock.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4THnMessenger.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4UImessenger.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4UIdirectory.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4UIcommand.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4ApplicationState.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4ThreeVector.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/CLHEP/Vector/ThreeVector.h \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/CLHEP/Utility/defs.h \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/CLHEP/Vector/ThreeVector.icc \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4UIparameter.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4UItokenNum.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4THnToolsManager.icc \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4THnMessenger.icc \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4Tokenizer.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4TH2ToolsManager.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4TH3ToolsManager.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4TP1ToolsManager.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4TP2ToolsManager.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/tools/histo/h1d \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/tools/histo/h1 \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/tools/histo/b1 \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/tools/histo/base_histo \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/tools/histo/histo_data \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/tools/histo/axes \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/tools/histo/axis \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/tools/eqT \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/tools/histo/h2d \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/tools/histo/h2 \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/tools/histo/b2 \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/tools/histo/h3d \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/tools/histo/h3 \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/tools/histo/b3 \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/tools/histo/p1d \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/tools/histo/p1 \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/tools/histo/profile_data \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/tools/histo/p2d \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/tools/histo/p2 \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4ToolsAnalysisManager.icc \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4GenericAnalysisManager.icc \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4GenericFileManager.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4GenericFileManager.icc \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/globals.hh \
- /home/apricot/Desktop/HPGeEfficiency/include/PrimaryGeneratorAction.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4ParticleGun.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4VPrimaryGenerator.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4ParticleDefinition.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4PDefManager.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/pwdefs.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4NtupleBookingManager.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/tools/ntuple_booking \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/tools/cids \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/tools/cid \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/tools/typedefs \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/tools/forit \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4NtupleBookingManager.icc \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VNtupleManager.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VFileManager.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4BaseFileManager.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VTHnFileManager.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4TH1ToolsManager.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4THnToolsManager.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4THnManager.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4THnManager.icc \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4AutoLock.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4THnMessenger.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4UImessenger.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4UIdirectory.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4UIcommand.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ApplicationState.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ThreeVector.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Vector/ThreeVector.h \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Utility/defs.h \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Vector/ThreeVector.icc \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4UIparameter.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4UItokenNum.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4THnToolsManager.icc \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4THnMessenger.icc \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Tokenizer.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4TH2ToolsManager.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4TH3ToolsManager.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4TP1ToolsManager.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4TP2ToolsManager.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/tools/histo/h1d \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/tools/histo/h1 \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/tools/histo/b1 \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/tools/histo/base_histo \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/tools/histo/histo_data \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/tools/histo/axes \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/tools/histo/axis \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/tools/eqT \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/tools/histo/h2d \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/tools/histo/h2 \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/tools/histo/b2 \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/tools/histo/h3d \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/tools/histo/h3 \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/tools/histo/b3 \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/tools/histo/p1d \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/tools/histo/p1 \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/tools/histo/profile_data \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/tools/histo/p2d \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/tools/histo/p2 \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ToolsAnalysisManager.icc \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GenericAnalysisManager.icc \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GenericFileManager.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GenericFileManager.icc \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/globals.hh \
+ /home/apricot/Documents/HPGeEfficiency/include/PrimaryGeneratorAction.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ParticleGun.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VPrimaryGenerator.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ParticleDefinition.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4PDefManager.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/pwdefs.hh \
  /usr/include/c++/14.2.1/stdlib.h \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/CLHEP/Units/PhysicalConstants.h \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/CLHEP/Units/SystemOfUnits.h \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4ParticleDefinition.icc \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4PrimaryVertex.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4Allocator.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4AllocatorPool.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4PrimaryParticle.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4ParticleMomentum.hh \
- /home/apricot/Desktop/HPGeEfficiency/include/RunAction.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4UserRunAction.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4Accumulable.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4VAccumulable.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4VAccumulable.icc \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4MergeMode.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Units/PhysicalConstants.h \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Units/SystemOfUnits.h \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ParticleDefinition.icc \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4PrimaryVertex.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Allocator.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4AllocatorPool.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4PrimaryParticle.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ParticleMomentum.hh \
+ /home/apricot/Documents/HPGeEfficiency/include/RunAction.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4UserRunAction.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Accumulable.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VAccumulable.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VAccumulable.icc \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4MergeMode.hh \
  /usr/include/c++/14.2.1/functional /usr/include/c++/14.2.1/unordered_map \
  /usr/include/c++/14.2.1/bits/unordered_map.h \
  /usr/include/c++/14.2.1/bits/hashtable.h \
  /usr/include/c++/14.2.1/bits/hashtable_policy.h \
  /usr/include/c++/14.2.1/bits/enable_special_members.h \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4Accumulable.icc \
- /home/apricot/Desktop/HPGeEfficiency/include/EventAction.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4UserEventAction.hh \
- /home/apricot/Desktop/HPGeEfficiency/include/SteppingAction.hh \
- /opt/Geant4/Geant4-v11.2.1/include/Geant4/G4UserSteppingAction.hh
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Accumulable.icc \
+ /home/apricot/Documents/HPGeEfficiency/include/EventAction.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4UserEventAction.hh \
+ /home/apricot/Documents/HPGeEfficiency/include/SteppingAction.hh \
+ /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4UserSteppingAction.hh
