@@ -1,13 +1,13 @@
 #! /bin/zsh
 
-cd /home/apricot/Desktop/run2407/
+cd /home/apricot/Desktop/HPGeEfficiency/
 
 cd build
 make
 
 rm /home/apricot/Desktop/gamma_ana/sim_eff2408/*.txt
 
-for run in {10..10000}
+for run in {1400..10000}
 do
     cd /home/apricot/Desktop/run2407/
     python3 adegr.py ${run}
