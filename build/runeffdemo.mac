@@ -13,7 +13,7 @@
 # 10000 events
 #
 /gun/particle gamma
-/gun/energy 10 keV
+/gun/energy 1406 keV
 #
 #/run/printProgress 100
 #/run/beamOn 1000
