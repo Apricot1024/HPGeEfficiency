@@ -434,6 +434,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
   G4double poszupBoWindow = - 2 * dupTAlpDz + dupBoAlpDz;
   G4ThreeVector posupBoWindow = G4ThreeVector(0, 0, poszupBoWindow);
 
+  std::cout<< dWellpRMax << std::endl;
   auto logicupBoWindow = new G4LogicalVolume(solidupBoWindow,  // its solid
   Window_mat,                                        // its material
   "upBoWindow");                                         // its name

@@ -1404,9 +1404,8 @@ CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.o
 
 CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o
  /home/apricot/Documents/HPGeEfficiency/src/DetectorConstruction.cc
- /home/apricot/Desktop/HPGeEfficiency/include/DetectorConstruction.hh
- /home/apricot/Desktop/HPGeEfficiency/include/SizeConstant.hh
- /home/apricot/Desktop/HPGeEfficiency/src/DetectorConstruction.cc
+ /home/apricot/Documents/HPGeEfficiency/include/DetectorConstruction.hh
+ /home/apricot/Documents/HPGeEfficiency/include/SizeConstant.hh
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Geometry/BasicVector3D.h
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Geometry/Normal3D.h
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Geometry/Point3D.h
