@@ -114,8 +114,8 @@
 /vis/viewer/set/hiddenMarker true
 # /vis/viewer/set/viewpointThetaPhi 120 150
 /vis/viewer/set/viewpointThetaPhi 45 30
-
-/vis/viewer/set/targetPoint 0 0 0
+#
+# /vis/viewer/set/targetPoint 0 0 0
 /vis/viewer/zoom 1.5
 /vis/viewer/set/background white
 #

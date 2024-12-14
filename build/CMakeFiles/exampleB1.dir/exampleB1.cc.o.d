@@ -1,7 +1,7 @@
 CMakeFiles/exampleB1.dir/exampleB1.cc.o: \
- /home/apricot/Documents/HPGeEfficiency/exampleB1.cc \
+ /home/apricot/Desktop/HPGeEfficiency/exampleB1.cc \
  /usr/include/stdc-predef.h \
- /home/apricot/Documents/HPGeEfficiency/include/DetectorConstruction.hh \
+ /home/apricot/Desktop/HPGeEfficiency/include/DetectorConstruction.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VUserDetectorConstruction.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/globals.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ios.hh \
@@ -218,7 +218,7 @@ CMakeFiles/exampleB1.dir/exampleB1.cc.o: \
  /usr/include/c++/14.2.1/bits/stl_bvector.h \
  /usr/include/c++/14.2.1/bits/vector.tcc \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/globals.hh \
- /home/apricot/Documents/HPGeEfficiency/include/ActionInitialization.hh \
+ /home/apricot/Desktop/HPGeEfficiency/include/ActionInitialization.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VUserActionInitialization.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4RunManagerFactory.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4MTRunManager.hh \
@@ -667,7 +667,7 @@ CMakeFiles/exampleB1.dir/exampleB1.cc.o: \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4UIcommandStatus.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VStateDependent.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/icomsdefs.hh \
- /home/apricot/Documents/HPGeEfficiency/include/PhysicsList.hh \
+ /home/apricot/Desktop/HPGeEfficiency/include/PhysicsList.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VModularPhysicsList.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VPhysicsConstructor.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4PhysicsListHelper.hh \

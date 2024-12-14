@@ -1,7 +1,7 @@
 CMakeFiles/exampleB1.dir/src/RunAction.cc.o: \
- /home/apricot/Documents/HPGeEfficiency/src/RunAction.cc \
+ /home/apricot/Desktop/HPGeEfficiency/src/RunAction.cc \
  /usr/include/stdc-predef.h \
- /home/apricot/Documents/HPGeEfficiency/include/RunAction.hh \
+ /home/apricot/Desktop/HPGeEfficiency/include/RunAction.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4UserRunAction.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Types.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GlobalConfig.hh \
@@ -233,7 +233,7 @@ CMakeFiles/exampleB1.dir/src/RunAction.cc.o: \
  /usr/include/c++/14.2.1/compare \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Accumulable.icc \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/globals.hh \
- /home/apricot/Documents/HPGeEfficiency/include/HistoManager.hh \
+ /home/apricot/Desktop/HPGeEfficiency/include/HistoManager.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4AnalysisManager.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GenericAnalysisManager.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ToolsAnalysisManager.hh \
@@ -331,7 +331,7 @@ CMakeFiles/exampleB1.dir/src/RunAction.cc.o: \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GenericAnalysisManager.icc \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GenericFileManager.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GenericFileManager.icc \
- /home/apricot/Documents/HPGeEfficiency/include/PrimaryGeneratorAction.hh \
+ /home/apricot/Desktop/HPGeEfficiency/include/PrimaryGeneratorAction.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ParticleGun.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VPrimaryGenerator.hh \
@@ -347,7 +347,7 @@ CMakeFiles/exampleB1.dir/src/RunAction.cc.o: \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4AllocatorPool.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4PrimaryParticle.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ParticleMomentum.hh \
- /home/apricot/Documents/HPGeEfficiency/include/DetectorConstruction.hh \
+ /home/apricot/Desktop/HPGeEfficiency/include/DetectorConstruction.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VUserDetectorConstruction.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4RunManager.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Event.hh \

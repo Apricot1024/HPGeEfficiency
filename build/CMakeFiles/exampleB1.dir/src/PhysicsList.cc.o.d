@@ -1,7 +1,7 @@
 CMakeFiles/exampleB1.dir/src/PhysicsList.cc.o: \
- /home/apricot/Documents/HPGeEfficiency/src/PhysicsList.cc \
+ /home/apricot/Desktop/HPGeEfficiency/src/PhysicsList.cc \
  /usr/include/stdc-predef.h \
- /home/apricot/Documents/HPGeEfficiency/include/PhysicsList.hh \
+ /home/apricot/Desktop/HPGeEfficiency/include/PhysicsList.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VModularPhysicsList.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VPhysicsConstructor.hh \
  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ParticleTable.hh \
