@@ -60,19 +60,3 @@
 /vis/viewer/set/autoRefresh true
 /vis/viewer/refresh
 /vis/verbose warnings
-/vis/set/touchable World 0 Envelope 0 upCoEndcup 0
-/vis/touchable/set/visibility false
-/vis/viewer/refresh
-/vis/scene/notifyHandlers
-/vis/set/touchable World 0 Envelope 0 upCoEndcup 0
-/vis/touchable/set/visibility true
-/vis/viewer/refresh
-/vis/scene/notifyHandlers
-/vis/set/touchable World 0 Envelope 0 upCoEndcup 0
-/vis/touchable/set/visibility false
-/vis/viewer/refresh
-/vis/scene/notifyHandlers
-/vis/set/touchable World 0 Envelope 0 upCoEndcup 0
-/vis/touchable/set/visibility true
-/vis/viewer/refresh
-/vis/scene/notifyHandlers
