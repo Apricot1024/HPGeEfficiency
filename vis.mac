@@ -117,7 +117,7 @@
 #
 # /vis/viewer/set/targetPoint 0 0 0
 /vis/viewer/zoom 1.5
-/vis/viewer/set/background white
+# /vis/viewer/set/background white
 #
 # Re-establish auto refreshing and verbosity:
 /vis/viewer/set/autoRefresh true
