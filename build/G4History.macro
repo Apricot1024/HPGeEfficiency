@@ -57,4 +57,8 @@
 /vis/viewer/set/auxiliaryEdge true
 /vis/viewer/set/hiddenMarker true
 /vis/viewer/set/viewpointThetaPhi 45 30
-/vis/viewer/set/targetPoint 0 0 0
+/vis/viewer/zoom 1.5
+/vis/viewer/set/background white
+/vis/viewer/set/autoRefresh true
+/vis/viewer/refresh
+/vis/verbose warnings
