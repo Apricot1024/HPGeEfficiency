@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+
+  <define/>
+
+  <materials>
+    <material Z="13" name="G4_Al0x56847acab680" state="solid">
+      <T unit="K" value="293.15"/>
+      <MEE unit="eV" value="166"/>
+      <D unit="g/cm3" value="2.699"/>
+      <atom unit="g/mole" value="26.9815"/>
+    </material>
+    <isotope N="12" Z="6" name="C120x56847ac90ff0">
+      <atom unit="g/mole" value="12"/>
+    </isotope>
+    <isotope N="13" Z="6" name="C130x56847aca33c0">
+      <atom unit="g/mole" value="13.0034"/>
+    </isotope>
+    <element name="C0x56847acac300">
+      <fraction n="0.9893" ref="C120x56847ac90ff0"/>
+      <fraction n="0.0107" ref="C130x56847aca33c0"/>
+    </element>
+    <isotope N="14" Z="7" name="N140x56847ac8f770">
+      <atom unit="g/mole" value="14.0031"/>
+    </isotope>
+    <isotope N="15" Z="7" name="N150x56847ac92e10">
+      <atom unit="g/mole" value="15.0001"/>
+    </isotope>
+    <element name="N0x56847aca9ec0">
+      <fraction n="0.99632" ref="N140x56847ac8f770"/>
+      <fraction n="0.00368" ref="N150x56847ac92e10"/>
+    </element>
+    <isotope N="16" Z="8" name="O160x56847aca2d10">
+      <atom unit="g/mole" value="15.9949"/>
+    </isotope>
+    <isotope N="17" Z="8" name="O170x56847aca2390">
+      <atom unit="g/mole" value="16.9991"/>
+    </isotope>
+    <isotope N="18" Z="8" name="O180x56847ac92d20">
+      <atom unit="g/mole" value="17.9992"/>
+    </isotope>
+    <element name="O0x56847acaa020">
+      <fraction n="0.99757" ref="O160x56847aca2d10"/>
+      <fraction n="0.00038" ref="O170x56847aca2390"/>
+      <fraction n="0.00205" ref="O180x56847ac92d20"/>
+    </element>
+    <isotope N="36" Z="18" name="Ar360x56847ac93380">
+      <atom unit="g/mole" value="35.9675"/>
+    </isotope>
+    <isotope N="38" Z="18" name="Ar380x56847aca22a0">
+      <atom unit="g/mole" value="37.9627"/>
+    </isotope>
+    <isotope N="40" Z="18" name="Ar400x56847ac998d0">
+      <atom unit="g/mole" value="39.9624"/>
+    </isotope>
+    <element name="Ar0x56847acaa120">
+      <fraction n="0.003365" ref="Ar360x56847ac93380"/>
+      <fraction n="0.000632" ref="Ar380x56847aca22a0"/>
+      <fraction n="0.996003" ref="Ar400x56847ac998d0"/>
+    </element>
+    <material name="G4_AIR0x56847acaca70" state="gas">
+      <T unit="K" value="293.15"/>
+      <MEE unit="eV" value="85.7"/>
+      <D unit="g/cm3" value="0.00120479"/>
+      <fraction n="0.000124000124000124" ref="C0x56847acac300"/>
+      <fraction n="0.755267755267755" ref="N0x56847aca9ec0"/>
+      <fraction n="0.231781231781232" ref="O0x56847acaa020"/>
+      <fraction n="0.0128270128270128" ref="Ar0x56847acaa120"/>
+    </material>
+    <isotope N="70" Z="32" name="Ge700x56847acac2b0">
+      <atom unit="g/mole" value="69.9243"/>
+    </isotope>
+    <isotope N="72" Z="32" name="Ge720x56847ac2d460">
+      <atom unit="g/mole" value="71.9221"/>
+    </isotope>
+    <isotope N="73" Z="32" name="Ge730x56847aca7c40">
+      <atom unit="g/mole" value="72.9235"/>
+    </isotope>
+    <isotope N="74" Z="32" name="Ge740x56847aca79b0">
+      <atom unit="g/mole" value="73.9212"/>
+    </isotope>
+    <isotope N="76" Z="32" name="Ge760x56847ac2d550">
+      <atom unit="g/mole" value="75.9214"/>
+    </isotope>
+    <element name="Ge0x56847acab0b0">
+      <fraction n="0.2084" ref="Ge700x56847acac2b0"/>
+      <fraction n="0.2754" ref="Ge720x56847ac2d460"/>
+      <fraction n="0.0773" ref="Ge730x56847aca7c40"/>
+      <fraction n="0.3628" ref="Ge740x56847aca79b0"/>
+      <fraction n="0.0761" ref="Ge760x56847ac2d550"/>
+    </element>
+    <material name="G4_Ge0x56847acaaef0" state="solid">
+      <T unit="K" value="293.15"/>
+      <MEE unit="eV" value="350"/>
+      <D unit="g/cm3" value="5.323"/>
+      <fraction n="1" ref="Ge0x56847acab0b0"/>
+    </material>
+    <isotope N="63" Z="29" name="Cu630x56847acab4e0">
+      <atom unit="g/mole" value="62.9296"/>
+    </isotope>
+    <isotope N="65" Z="29" name="Cu650x56847acab060">
+      <atom unit="g/mole" value="64.9278"/>
+    </isotope>
+    <element name="Cu0x56847acb3d80">
+      <fraction n="0.6917" ref="Cu630x56847acab4e0"/>
+      <fraction n="0.3083" ref="Cu650x56847acab060"/>
+    </element>
+    <material name="G4_Cu0x56847acb3c40" state="solid">
+      <T unit="K" value="293.15"/>
+      <MEE unit="eV" value="322"/>
+      <D unit="g/cm3" value="8.96"/>
+      <fraction n="1" ref="Cu0x56847acb3d80"/>
+    </material>
+    <isotope N="204" Z="82" name="Pb2040x56847acb4e10">
+      <atom unit="g/mole" value="203.973"/>
+    </isotope>
+    <isotope N="206" Z="82" name="Pb2060x56847acb4e60">
+      <atom unit="g/mole" value="205.974"/>
+    </isotope>
+    <isotope N="207" Z="82" name="Pb2070x56847acb4eb0">
+      <atom unit="g/mole" value="206.976"/>
+    </isotope>
+    <isotope N="208" Z="82" name="Pb2080x56847acb4f30">
+      <atom unit="g/mole" value="207.977"/>
+    </isotope>
+    <element name="Pb0x56847acb4f80">
+      <fraction n="0.014" ref="Pb2040x56847acb4e10"/>
+      <fraction n="0.241" ref="Pb2060x56847acb4e60"/>
+      <fraction n="0.221" ref="Pb2070x56847acb4eb0"/>
+      <fraction n="0.524" ref="Pb2080x56847acb4f30"/>
+    </element>
+    <material name="G4_Pb0x56847acb4cd0" state="solid">
+      <T unit="K" value="293.15"/>
+      <MEE unit="eV" value="823"/>
+      <D unit="g/cm3" value="11.35"/>
+      <fraction n="1" ref="Pb0x56847acb4f80"/>
+    </material>
+    <isotope N="106" Z="48" name="Cd1060x56847acab1a0">
+      <atom unit="g/mole" value="105.906"/>
+    </isotope>
+    <isotope N="108" Z="48" name="Cd1080x56847acb9990">
+      <atom unit="g/mole" value="107.904"/>
+    </isotope>
+    <isotope N="110" Z="48" name="Cd1100x56847acb99e0">
+      <atom unit="g/mole" value="109.903"/>
+    </isotope>
+    <isotope N="111" Z="48" name="Cd1110x56847acb9a60">
+      <atom unit="g/mole" value="110.904"/>
+    </isotope>
+    <isotope N="112" Z="48" name="Cd1120x56847acb9ab0">
+      <atom unit="g/mole" value="111.903"/>
+    </isotope>
+    <isotope N="113" Z="48" name="Cd1130x56847acb9b50">
+      <atom unit="g/mole" value="112.904"/>
+    </isotope>
+    <isotope N="114" Z="48" name="Cd1140x56847acb9ba0">
+      <atom unit="g/mole" value="113.903"/>
+    </isotope>
+    <isotope N="116" Z="48" name="Cd1160x56847acb9bf0">
+      <atom unit="g/mole" value="115.905"/>
+    </isotope>
+    <element name="Cd0x56847acb9c40">
+      <fraction n="0.0125" ref="Cd1060x56847acab1a0"/>
+      <fraction n="0.0089" ref="Cd1080x56847acb9990"/>
+      <fraction n="0.1249" ref="Cd1100x56847acb99e0"/>
+      <fraction n="0.128" ref="Cd1110x56847acb9a60"/>
+      <fraction n="0.2413" ref="Cd1120x56847acb9ab0"/>
+      <fraction n="0.1222" ref="Cd1130x56847acb9b50"/>
+      <fraction n="0.2873" ref="Cd1140x56847acb9ba0"/>
+      <fraction n="0.0749" ref="Cd1160x56847acb9bf0"/>
+    </element>
+    <material name="G4_Cd0x56847acb9850" state="solid">
+      <T unit="K" value="293.15"/>
+      <MEE unit="eV" value="469"/>
+      <D unit="g/cm3" value="8.65"/>
+      <fraction n="1" ref="Cd0x56847acb9c40"/>
+    </material>
+  </materials>
+
+  <solids>
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="Window0x56847accabd0" rmax="8.4" rmin="7.75" startphi="0" z="40"/>
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="BWindow0x56847accbc40" rmax="8.4" rmin="0" startphi="0" z="0.65"/>
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="Holder0x56847accc170" rmax="7.5" rmin="0" startphi="0" z="0.25"/>
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="Well0x56847accc9e0" rmax="16.6694861779583" rmin="0" startphi="0" z="50"/>
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="Deadlayer0x56847accd1d0" rmax="16.6700861779583" rmin="16.6694861779583" startphi="0" z="50"/>
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="BDeadlayer0x56847accee10" rmax="16.6700861779583" rmin="0" startphi="0" z="0.0006"/>
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="outupDeadlayer0x56847acce800" rmax="39.65" rmin="16.6700861779583" startphi="0" z="0.0006"/>
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="outTDeadlayer0x56847acd02f0" rmax="39.65" rmin="39.6494" startphi="0" z="79.4988"/>
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="outBoDeadlayer0x56847ac96870" rmax="39.65" rmin="0" startphi="0" z="0.0006"/>
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="Ge0x56847acaa760" rmax="39.65" rmin="0" startphi="0" z="79.5"/>
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="upTWindow0x56847ac96c60" rmax="8.4" rmin="7.75" startphi="0" z="10"/>
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="upBoWindow0x56847ac95e50" rmax="13.4" rmin="8.4" startphi="0" z="0.65"/>
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="upCuCup0x56847ac95970" rmax="39.65" rmin="17.6694861779583" startphi="0" z="0.8"/>
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="TCuCup0x56847ac96710" rmax="40.45" rmin="39.65" startphi="0" z="86.1"/>
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="BoCuCup0x56847acd55d0" rmax="39.65" rmin="0" startphi="0" z="0.8"/>
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="upCuEndcap0x56847acd5e10" rmax="47.5" rmin="13.4" startphi="0" z="0.8"/>
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="TCuEndcap0x56847acd8990" rmax="47.5" rmin="46.7" startphi="0" z="198.4"/>
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="BoCuEndcap0x56847acd6480" rmax="47.5" rmin="0" startphi="0" z="0.8"/>
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="TOFCushield0x56847acd7f90" rmax="110" rmin="60" startphi="0" z="400"/>
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="upOFCushield0x56847acd7db0" rmax="110" rmin="0" startphi="0" z="50"/>
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="BoOFCushield0x56847acda130" rmax="110" rmin="0" startphi="0" z="50"/>
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="TLBPbshield0x56847ac95460" rmax="160" rmin="110" startphi="0" z="500"/>
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="upLBPbshield0x56847ac94db0" rmax="160" rmin="0" startphi="0" z="50"/>
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="BoLBPbshield0x56847ac93790" rmax="160" rmin="0" startphi="0" z="50"/>
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="TCdshield0x56847ac94340" rmax="170" rmin="160" startphi="0" z="600"/>
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="upCdshield0x56847acdefb0" rmax="170" rmin="0" startphi="0" z="10"/>
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="BoCdshield0x56847acde9e0" rmax="170" rmin="0" startphi="0" z="10"/>
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="TPbshield0x56847ace05b0" rmax="320" rmin="170" startphi="0" z="620"/>
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="upPbshield0x56847ace00d0" rmax="320" rmin="0" startphi="0" z="150"/>
+    <tube aunit="deg" deltaphi="360" lunit="mm" name="BoPbshield0x56847ace18d0" rmax="320" rmin="0" startphi="0" z="150"/>
+    <box lunit="mm" name="Envelope0x56847acc4640" x="793" y="793" z="1590"/>
+    <box lunit="mm" name="World0x56847acba490" x="951.6" y="951.6" z="1908"/>
+  </solids>
+
+  <structure>
+    <volume name="Window0x56847accba70">
+      <materialref ref="G4_Al0x56847acab680"/>
+      <solidref ref="Window0x56847accabd0"/>
+    </volume>
+    <volume name="BWindow0x56847accd8d0">
+      <materialref ref="G4_Al0x56847acab680"/>
+      <solidref ref="BWindow0x56847accbc40"/>
+    </volume>
+    <volume name="Holder0x56847accdbe0">
+      <materialref ref="G4_Al0x56847acab680"/>
+      <solidref ref="Holder0x56847accc170"/>
+    </volume>
+    <volume name="Well0x56847accb720">
+      <materialref ref="G4_AIR0x56847acaca70"/>
+      <solidref ref="Well0x56847accc9e0"/>
+      <physvol name="Window0x56847accbb80">
+        <volumeref ref="Window0x56847accba70"/>
+        <position name="Window0x56847accbb80_pos" unit="mm" x="0" y="0" z="-5"/>
+      </physvol>
+      <physvol name="BWindow0x56847accd9e0">
+        <volumeref ref="BWindow0x56847accd8d0"/>
+        <position name="BWindow0x56847accd9e0_pos" unit="mm" x="0" y="0" z="15.325"/>
+      </physvol>
+      <physvol name="Holder0x56847accdcf0">
+        <volumeref ref="Holder0x56847accdbe0"/>
+        <position name="Holder0x56847accdcf0_pos" unit="mm" x="0" y="0" z="14.875"/>
+      </physvol>
+    </volume>
+    <volume name="Deadlayer0x56847accf160">
+      <materialref ref="G4_Ge0x56847acaaef0"/>
+      <solidref ref="Deadlayer0x56847accd1d0"/>
+    </volume>
+    <volume name="BDeadlayer0x56847accf600">
+      <materialref ref="G4_Ge0x56847acaaef0"/>
+      <solidref ref="BDeadlayer0x56847accee10"/>
+    </volume>
+    <volume name="outupDeadlayer0x56847acd0640">
+      <materialref ref="G4_Ge0x56847acaaef0"/>
+      <solidref ref="outupDeadlayer0x56847acce800"/>
+    </volume>
+    <volume name="outTDeadlayer0x56847accfae0">
+      <materialref ref="G4_Ge0x56847acaaef0"/>
+      <solidref ref="outTDeadlayer0x56847acd02f0"/>
+    </volume>
+    <volume name="outBoDeadlayer0x56847acd0200">
+      <materialref ref="G4_Ge0x56847acaaef0"/>
+      <solidref ref="outBoDeadlayer0x56847ac96870"/>
+    </volume>
+    <volume name="Ge0x56847acccc90">
+      <materialref ref="G4_Ge0x56847acaaef0"/>
+      <solidref ref="Ge0x56847acaa760"/>
+      <physvol name="Well0x56847accb830">
+        <volumeref ref="Well0x56847accb720"/>
+        <position name="Well0x56847accb830_pos" unit="mm" x="0" y="0" z="-14.75"/>
+      </physvol>
+      <physvol name="Deadlayer0x56847accf270">
+        <volumeref ref="Deadlayer0x56847accf160"/>
+        <position name="Deadlayer0x56847accf270_pos" unit="mm" x="0" y="0" z="-14.75"/>
+      </physvol>
+      <physvol name="BDeadlayer0x56847accf710">
+        <volumeref ref="BDeadlayer0x56847accf600"/>
+        <position name="BDeadlayer0x56847accf710_pos" unit="mm" x="0" y="0" z="10.2503"/>
+      </physvol>
+      <physvol name="outupDeadlayer0x56847acd0750">
+        <volumeref ref="outupDeadlayer0x56847acd0640"/>
+        <position name="outupDeadlayer0x56847acd0750_pos" unit="mm" x="0" y="0" z="-39.7497"/>
+      </physvol>
+      <physvol name="outTDeadlayer0x56847accfbf0">
+        <volumeref ref="outTDeadlayer0x56847accfae0"/>
+      </physvol>
+      <physvol name="outBoDeadlayer0x56847accfe10">
+        <volumeref ref="outBoDeadlayer0x56847acd0200"/>
+        <position name="outBoDeadlayer0x56847accfe10_pos" unit="mm" x="0" y="0" z="39.7497"/>
+      </physvol>
+    </volume>
+    <volume name="upTWindow0x56847ac96240">
+      <materialref ref="G4_Al0x56847acab680"/>
+      <solidref ref="upTWindow0x56847ac96c60"/>
+    </volume>
+    <volume name="upBoWindow0x56847ac95640">
+      <materialref ref="G4_Al0x56847acab680"/>
+      <solidref ref="upBoWindow0x56847ac95e50"/>
+    </volume>
+    <volume name="upCuCup0x56847acd5920">
+      <materialref ref="G4_Cu0x56847acb3c40"/>
+      <solidref ref="upCuCup0x56847ac95970"/>
+    </volume>
+    <volume name="TCuCup0x56847acd4e20">
+      <materialref ref="G4_Cu0x56847acb3c40"/>
+      <solidref ref="TCuCup0x56847ac96710"/>
+    </volume>
+    <volume name="BoCuCup0x56847acd6e00">
+      <materialref ref="G4_Cu0x56847acb3c40"/>
+      <solidref ref="BoCuCup0x56847acd55d0"/>
+    </volume>
+    <volume name="upCuEndcap0x56847acd75e0">
+      <materialref ref="G4_Cu0x56847acb3c40"/>
+      <solidref ref="upCuEndcap0x56847acd5e10"/>
+    </volume>
+    <volume name="TCuEndcap0x56847acd8d10">
+      <materialref ref="G4_Cu0x56847acb3c40"/>
+      <solidref ref="TCuEndcap0x56847acd8990"/>
+    </volume>
+    <volume name="BoCuEndcap0x56847acd82e0">
+      <materialref ref="G4_Cu0x56847acb3c40"/>
+      <solidref ref="BoCuEndcap0x56847acd6480"/>
+    </volume>
+    <volume name="TOFCushield0x56847acd7780">
+      <materialref ref="G4_Cu0x56847acb3c40"/>
+      <solidref ref="TOFCushield0x56847acd7f90"/>
+    </volume>
+    <volume name="upOFCushield0x56847acd7cc0">
+      <materialref ref="G4_Cu0x56847acb3c40"/>
+      <solidref ref="upOFCushield0x56847acd7db0"/>
+    </volume>
+    <volume name="BoOFCushield0x56847acd9fe0">
+      <materialref ref="G4_Cu0x56847acb3c40"/>
+      <solidref ref="BoOFCushield0x56847acda130"/>
+    </volume>
+    <volume name="TLBPbshield0x56847acd9260">
+      <materialref ref="G4_Pb0x56847acb4cd0"/>
+      <solidref ref="TLBPbshield0x56847ac95460"/>
+    </volume>
+    <volume name="upLBPbshield0x56847ac950b0">
+      <materialref ref="G4_Pb0x56847acb4cd0"/>
+      <solidref ref="upLBPbshield0x56847ac94db0"/>
+    </volume>
+    <volume name="BoLBPbshield0x56847ac94030">
+      <materialref ref="G4_Pb0x56847acb4cd0"/>
+      <solidref ref="BoLBPbshield0x56847ac93790"/>
+    </volume>
+    <volume name="TCdshield0x56847acdf2d0">
+      <materialref ref="G4_Cd0x56847acb9850"/>
+      <solidref ref="TCdshield0x56847ac94340"/>
+    </volume>
+    <volume name="upCdshield0x56847acdf7b0">
+      <materialref ref="G4_Cd0x56847acb9850"/>
+      <solidref ref="upCdshield0x56847acdefb0"/>
+    </volume>
+    <volume name="BoCdshield0x56847ace0900">
+      <materialref ref="G4_Cd0x56847acb9850"/>
+      <solidref ref="BoCdshield0x56847acde9e0"/>
+    </volume>
+    <volume name="TPbshield0x56847acdfda0">
+      <materialref ref="G4_Pb0x56847acb4cd0"/>
+      <solidref ref="TPbshield0x56847ace05b0"/>
+    </volume>
+    <volume name="upPbshield0x56847ace1c20">
+      <materialref ref="G4_Pb0x56847acb4cd0"/>
+      <solidref ref="upPbshield0x56847ace00d0"/>
+    </volume>
+    <volume name="BoPbshield0x56847ace10c0">
+      <materialref ref="G4_Pb0x56847acb4cd0"/>
+      <solidref ref="BoPbshield0x56847ace18d0"/>
+    </volume>
+    <volume name="Envelope0x56847acc4720">
+      <materialref ref="G4_AIR0x56847acaca70"/>
+      <solidref ref="Envelope0x56847acc4640"/>
+      <physvol name="Ge0x56847acccda0">
+        <volumeref ref="Ge0x56847acccc90"/>
+        <position name="Ge0x56847acccda0_pos" unit="mm" x="0" y="0" z="39.75"/>
+      </physvol>
+      <physvol name="upTWindow0x56847ac96350">
+        <volumeref ref="upTWindow0x56847ac96240"/>
+        <position name="upTWindow0x56847ac96350_pos" unit="mm" x="0" y="0" z="-5"/>
+      </physvol>
+      <physvol name="upBoWindow0x56847ac95750">
+        <volumeref ref="upBoWindow0x56847ac95640"/>
+        <position name="upBoWindow0x56847ac95750_pos" unit="mm" x="0" y="0" z="-9.675"/>
+      </physvol>
+      <physvol name="upCuCup0x56847acd5a30">
+        <volumeref ref="upCuCup0x56847acd5920"/>
+        <position name="upCuCup0x56847acd5a30_pos" unit="mm" x="0" y="0" z="-5.4"/>
+      </physvol>
+      <physvol name="TCuCup0x56847acd4f30">
+        <volumeref ref="TCuCup0x56847acd4e20"/>
+        <position name="TCuCup0x56847acd4f30_pos" unit="mm" x="0" y="0" z="37.25"/>
+      </physvol>
+      <physvol name="BoCuCup0x56847acd6f10">
+        <volumeref ref="BoCuCup0x56847acd6e00"/>
+        <position name="BoCuCup0x56847acd6f10_pos" unit="mm" x="0" y="0" z="79.9"/>
+      </physvol>
+      <physvol name="upCuEndcap0x56847acd7250">
+        <volumeref ref="upCuEndcap0x56847acd75e0"/>
+        <position name="upCuEndcap0x56847acd7250_pos" unit="mm" x="0" y="0" z="-9.675"/>
+      </physvol>
+      <physvol name="TCuEndcap0x56847acd8e20">
+        <volumeref ref="TCuEndcap0x56847acd8d10"/>
+        <position name="TCuEndcap0x56847acd8e20_pos" unit="mm" x="0" y="0" z="89.925"/>
+      </physvol>
+      <physvol name="BoCuEndcap0x56847acd83f0">
+        <volumeref ref="BoCuEndcap0x56847acd82e0"/>
+        <position name="BoCuEndcap0x56847acd83f0_pos" unit="mm" x="0" y="0" z="189.525"/>
+      </physvol>
+      <physvol name="TOFCushield0x56847acd7890">
+        <volumeref ref="TOFCushield0x56847acd7780"/>
+        <position name="TOFCushield0x56847acd7890_pos" unit="mm" x="0" y="0" z="100"/>
+      </physvol>
+      <physvol name="upOFCushield0x56847acd9cc0">
+        <volumeref ref="upOFCushield0x56847acd7cc0"/>
+        <position name="upOFCushield0x56847acd9cc0_pos" unit="mm" x="0" y="0" z="-125"/>
+      </physvol>
+      <physvol name="BoOFCushield0x56847ac94a60">
+        <volumeref ref="BoOFCushield0x56847acd9fe0"/>
+        <position name="BoOFCushield0x56847ac94a60_pos" unit="mm" x="0" y="0" z="325"/>
+      </physvol>
+      <physvol name="TLBPbshield0x56847acd9370">
+        <volumeref ref="TLBPbshield0x56847acd9260"/>
+        <position name="TLBPbshield0x56847acd9370_pos" unit="mm" x="0" y="0" z="100"/>
+      </physvol>
+      <physvol name="upLBPbshield0x56847ac951c0">
+        <volumeref ref="upLBPbshield0x56847ac950b0"/>
+        <position name="upLBPbshield0x56847ac951c0_pos" unit="mm" x="0" y="0" z="-175"/>
+      </physvol>
+      <physvol name="BoLBPbshield0x56847ac94140">
+        <volumeref ref="BoLBPbshield0x56847ac94030"/>
+        <position name="BoLBPbshield0x56847ac94140_pos" unit="mm" x="0" y="0" z="375"/>
+      </physvol>
+      <physvol name="TCdshield0x56847acdf3e0">
+        <volumeref ref="TCdshield0x56847acdf2d0"/>
+        <position name="TCdshield0x56847acdf3e0_pos" unit="mm" x="0" y="0" z="100"/>
+      </physvol>
+      <physvol name="upCdshield0x56847acdf8c0">
+        <volumeref ref="upCdshield0x56847acdf7b0"/>
+        <position name="upCdshield0x56847acdf8c0_pos" unit="mm" x="0" y="0" z="-205"/>
+      </physvol>
+      <physvol name="BoCdshield0x56847ace0a10">
+        <volumeref ref="BoCdshield0x56847ace0900"/>
+        <position name="BoCdshield0x56847ace0a10_pos" unit="mm" x="0" y="0" z="405"/>
+      </physvol>
+      <physvol name="TPbshield0x56847acdfeb0">
+        <volumeref ref="TPbshield0x56847acdfda0"/>
+        <position name="TPbshield0x56847acdfeb0_pos" unit="mm" x="0" y="0" z="100"/>
+      </physvol>
+      <physvol name="upPbshield0x56847ace1d30">
+        <volumeref ref="upPbshield0x56847ace1c20"/>
+        <position name="upPbshield0x56847ace1d30_pos" unit="mm" x="0" y="0" z="-285"/>
+      </physvol>
+      <physvol name="BoPbshield0x56847ace11d0">
+        <volumeref ref="BoPbshield0x56847ace10c0"/>
+        <position name="BoPbshield0x56847ace11d0_pos" unit="mm" x="0" y="0" z="485"/>
+      </physvol>
+    </volume>
+    <volume name="World0x56847acba510">
+      <materialref ref="G4_AIR0x56847acaca70"/>
+      <solidref ref="World0x56847acba490"/>
+      <physvol name="Envelope0x56847acc4830">
+        <volumeref ref="Envelope0x56847acc4720"/>
+      </physvol>
+    </volume>
+  </structure>
+
+  <setup name="Default" version="1.0">
+    <world ref="World0x56847acba510"/>
+  </setup>
+
+</gdml>

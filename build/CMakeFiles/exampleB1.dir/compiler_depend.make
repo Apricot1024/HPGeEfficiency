@@ -1401,6 +1401,7 @@ CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.o: /home/apricot/Desktop/HP
 CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o: /home/apricot/Desktop/HPGeEfficiency/src/DetectorConstruction.cc \
   /home/apricot/Desktop/HPGeEfficiency/include/DetectorConstruction.hh \
   /home/apricot/Desktop/HPGeEfficiency/include/SizeConstant.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Evaluator/Evaluator.h \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Geometry/BasicVector3D.h \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Geometry/Normal3D.h \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Geometry/Point3D.h \
@@ -1502,19 +1503,46 @@ CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o: /home/apricot/Desktop/HP
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Element.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ElementTable.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ElementVector.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Ellipsoid.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Ellipsoid.icc \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4EnvironmentUtils.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Evaluator.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Event.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4EventManager.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Exception.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ExceptionSeverity.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Exp.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ExtrudedSolid.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ExtrudedSolid.icc \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ForceCondition.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GDMLAuxStructType.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GDMLEvaluator.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GDMLMessenger.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GDMLParameterisation.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GDMLParser.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GDMLParser.icc \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GDMLRead.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GDMLReadDefine.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GDMLReadMaterials.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GDMLReadParamvol.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GDMLReadSetup.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GDMLReadSolids.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GDMLReadStructure.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GDMLWrite.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GDMLWriteDefine.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GDMLWriteMaterials.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GDMLWriteParamvol.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GDMLWriteSetup.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GDMLWriteSolids.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GDMLWriteStructure.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GPILSelection.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GeomConfig.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GeomSplitter.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GeomTypes.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GlobalConfig.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4HCofThisEvent.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Hype.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Hype.icc \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ICRU90StoppingData.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4IonisParamElm.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4IonisParamMat.hh \
@@ -1529,6 +1557,7 @@ CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o: /home/apricot/Desktop/HP
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4MaterialPropertiesTable.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4MaterialPropertyVector.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4MaterialTable.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4MultiUnion.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4NavigationHistory.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4NavigationHistory.icc \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4NavigationHistoryPool.hh \
@@ -1551,6 +1580,8 @@ CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o: /home/apricot/Desktop/HP
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4OrderedTable.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4PDefManager.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4PVPlacement.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Para.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Para.icc \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ParameterisedNavigation.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ParameterisedNavigation.icc \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ParticleChange.hh \
@@ -1569,6 +1600,14 @@ CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o: /home/apricot/Desktop/HP
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4PhysicsVector.icc \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4PhysicsVectorType.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Point3D.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Polycone.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Polycone.icc \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4PolyconeHistorical.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4PolyconeSide.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Polyhedra.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Polyhedra.icc \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4PolyhedraHistorical.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4PolyhedraSide.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Polyhedron.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Pow.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4PrimaryParticle.hh \
@@ -1590,6 +1629,8 @@ CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o: /home/apricot/Desktop/HP
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4RotationMatrix.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4RunManager.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4RunManagerKernel.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4STRead.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4SafetyHelper.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4SandiaTable.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4SmartTrackStack.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4SmartVoxelHeader.hh \
@@ -1613,9 +1654,13 @@ CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o: /home/apricot/Desktop/HP
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4String.icc \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4SubEvent.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4SubEventTrackStack.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4SurfBits.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4SystemOfUnits.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4TessellatedSolid.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Threading.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ThreeVector.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Torus.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Torus.icc \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4TouchableHandle.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4TouchableHistory.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4TouchableHistory.icc \
@@ -1628,6 +1673,10 @@ CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o: /home/apricot/Desktop/HP
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4TrackingMessenger.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4TrajectoryContainer.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Transform3D.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4TransportationManager.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4TransportationManager.icc \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Trap.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Trap.icc \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Trd.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Trd.icc \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Tubs.hh \
@@ -1644,8 +1693,11 @@ CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o: /home/apricot/Desktop/HP
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4UserStackingAction.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4UserSteppingAction.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4UserTrackingAction.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VCSGface.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VCSGfaceted.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VDigiCollection.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VExternalNavigation.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VFacet.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VHitsCollection.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VNavigation.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VPVParameterisation.hh \
@@ -1663,12 +1715,15 @@ CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o: /home/apricot/Desktop/HP
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VUserEventInformation.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VUserTrackInformation.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VVolumeMaterialScanner.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Vector3D.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VisAttributes.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VisAttributes.icc \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Visible.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Visible.icc \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VoxelNavigation.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VoxelNavigation.icc \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Voxelizer.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Voxelizer.icc \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ios.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/HepPolyhedron.h \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/PTL/Globals.hh \
@@ -1686,6 +1741,7 @@ CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o: /home/apricot/Desktop/HP
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/tls.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/trkdefs.hh \
   /opt/Geant4/Geant4-v11.2.2/include/Geant4/trkgdefs.hh \
+  /opt/Geant4/Geant4-v11.2.2/include/Geant4/windefs.hh \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
@@ -1974,6 +2030,7 @@ CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o: /home/apricot/Desktop/HP
   /usr/include/features.h \
   /usr/include/gnu/stubs-64.h \
   /usr/include/gnu/stubs.h \
+  /usr/include/inttypes.h \
   /usr/include/libintl.h \
   /usr/include/limits.h \
   /usr/include/linux/errno.h \
@@ -1995,6 +2052,147 @@ CMakeFiles/exampleB1.dir/src/DetectorConstruction.cc.o: /home/apricot/Desktop/HP
   /usr/include/time.h \
   /usr/include/wchar.h \
   /usr/include/wctype.h \
+  /usr/include/xercesc/dom/DOM.hpp \
+  /usr/include/xercesc/dom/DOMAttr.hpp \
+  /usr/include/xercesc/dom/DOMCDATASection.hpp \
+  /usr/include/xercesc/dom/DOMCharacterData.hpp \
+  /usr/include/xercesc/dom/DOMComment.hpp \
+  /usr/include/xercesc/dom/DOMConfiguration.hpp \
+  /usr/include/xercesc/dom/DOMDocument.hpp \
+  /usr/include/xercesc/dom/DOMDocumentFragment.hpp \
+  /usr/include/xercesc/dom/DOMDocumentRange.hpp \
+  /usr/include/xercesc/dom/DOMDocumentTraversal.hpp \
+  /usr/include/xercesc/dom/DOMDocumentType.hpp \
+  /usr/include/xercesc/dom/DOMElement.hpp \
+  /usr/include/xercesc/dom/DOMEntity.hpp \
+  /usr/include/xercesc/dom/DOMEntityReference.hpp \
+  /usr/include/xercesc/dom/DOMError.hpp \
+  /usr/include/xercesc/dom/DOMErrorHandler.hpp \
+  /usr/include/xercesc/dom/DOMException.hpp \
+  /usr/include/xercesc/dom/DOMImplementation.hpp \
+  /usr/include/xercesc/dom/DOMImplementationLS.hpp \
+  /usr/include/xercesc/dom/DOMImplementationList.hpp \
+  /usr/include/xercesc/dom/DOMImplementationRegistry.hpp \
+  /usr/include/xercesc/dom/DOMImplementationSource.hpp \
+  /usr/include/xercesc/dom/DOMLSException.hpp \
+  /usr/include/xercesc/dom/DOMLSInput.hpp \
+  /usr/include/xercesc/dom/DOMLSOutput.hpp \
+  /usr/include/xercesc/dom/DOMLSParser.hpp \
+  /usr/include/xercesc/dom/DOMLSParserFilter.hpp \
+  /usr/include/xercesc/dom/DOMLSResourceResolver.hpp \
+  /usr/include/xercesc/dom/DOMLSSerializer.hpp \
+  /usr/include/xercesc/dom/DOMLSSerializerFilter.hpp \
+  /usr/include/xercesc/dom/DOMLocator.hpp \
+  /usr/include/xercesc/dom/DOMNamedNodeMap.hpp \
+  /usr/include/xercesc/dom/DOMNode.hpp \
+  /usr/include/xercesc/dom/DOMNodeFilter.hpp \
+  /usr/include/xercesc/dom/DOMNodeIterator.hpp \
+  /usr/include/xercesc/dom/DOMNodeList.hpp \
+  /usr/include/xercesc/dom/DOMNotation.hpp \
+  /usr/include/xercesc/dom/DOMPSVITypeInfo.hpp \
+  /usr/include/xercesc/dom/DOMProcessingInstruction.hpp \
+  /usr/include/xercesc/dom/DOMRange.hpp \
+  /usr/include/xercesc/dom/DOMRangeException.hpp \
+  /usr/include/xercesc/dom/DOMStringList.hpp \
+  /usr/include/xercesc/dom/DOMText.hpp \
+  /usr/include/xercesc/dom/DOMTreeWalker.hpp \
+  /usr/include/xercesc/dom/DOMTypeInfo.hpp \
+  /usr/include/xercesc/dom/DOMUserDataHandler.hpp \
+  /usr/include/xercesc/dom/DOMXPathEvaluator.hpp \
+  /usr/include/xercesc/dom/DOMXPathException.hpp \
+  /usr/include/xercesc/dom/DOMXPathExpression.hpp \
+  /usr/include/xercesc/dom/DOMXPathNSResolver.hpp \
+  /usr/include/xercesc/dom/DOMXPathNamespace.hpp \
+  /usr/include/xercesc/dom/DOMXPathResult.hpp \
+  /usr/include/xercesc/framework/LocalFileFormatTarget.hpp \
+  /usr/include/xercesc/framework/MemoryManager.hpp \
+  /usr/include/xercesc/framework/ValidationContext.hpp \
+  /usr/include/xercesc/framework/XMLAttDef.hpp \
+  /usr/include/xercesc/framework/XMLAttDefList.hpp \
+  /usr/include/xercesc/framework/XMLAttr.hpp \
+  /usr/include/xercesc/framework/XMLBuffer.hpp \
+  /usr/include/xercesc/framework/XMLBufferMgr.hpp \
+  /usr/include/xercesc/framework/XMLContentModel.hpp \
+  /usr/include/xercesc/framework/XMLDocumentHandler.hpp \
+  /usr/include/xercesc/framework/XMLElementDecl.hpp \
+  /usr/include/xercesc/framework/XMLEntityDecl.hpp \
+  /usr/include/xercesc/framework/XMLEntityHandler.hpp \
+  /usr/include/xercesc/framework/XMLErrorReporter.hpp \
+  /usr/include/xercesc/framework/XMLFormatter.hpp \
+  /usr/include/xercesc/framework/XMLNotationDecl.hpp \
+  /usr/include/xercesc/framework/psvi/PSVIHandler.hpp \
+  /usr/include/xercesc/framework/psvi/XSConstants.hpp \
+  /usr/include/xercesc/framework/psvi/XSObject.hpp \
+  /usr/include/xercesc/framework/psvi/XSSimpleTypeDefinition.hpp \
+  /usr/include/xercesc/framework/psvi/XSTypeDefinition.hpp \
+  /usr/include/xercesc/internal/XProtoType.hpp \
+  /usr/include/xercesc/internal/XSerializable.hpp \
+  /usr/include/xercesc/internal/XSerializationException.hpp \
+  /usr/include/xercesc/internal/XSerializeEngine.hpp \
+  /usr/include/xercesc/parsers/AbstractDOMParser.hpp \
+  /usr/include/xercesc/parsers/XercesDOMParser.hpp \
+  /usr/include/xercesc/sax/DTDHandler.hpp \
+  /usr/include/xercesc/sax/DocumentHandler.hpp \
+  /usr/include/xercesc/sax/EntityResolver.hpp \
+  /usr/include/xercesc/sax/ErrorHandler.hpp \
+  /usr/include/xercesc/sax/HandlerBase.hpp \
+  /usr/include/xercesc/sax/SAXException.hpp \
+  /usr/include/xercesc/sax/SAXParseException.hpp \
+  /usr/include/xercesc/util/ArrayIndexOutOfBoundsException.hpp \
+  /usr/include/xercesc/util/BaseRefVectorOf.c \
+  /usr/include/xercesc/util/BaseRefVectorOf.hpp \
+  /usr/include/xercesc/util/EmptyStackException.hpp \
+  /usr/include/xercesc/util/Hashers.hpp \
+  /usr/include/xercesc/util/IllegalArgumentException.hpp \
+  /usr/include/xercesc/util/Janitor.c \
+  /usr/include/xercesc/util/Janitor.hpp \
+  /usr/include/xercesc/util/KVStringPair.hpp \
+  /usr/include/xercesc/util/Mutexes.hpp \
+  /usr/include/xercesc/util/NameIdPool.c \
+  /usr/include/xercesc/util/NameIdPool.hpp \
+  /usr/include/xercesc/util/NoSuchElementException.hpp \
+  /usr/include/xercesc/util/NullPointerException.hpp \
+  /usr/include/xercesc/util/PanicHandler.hpp \
+  /usr/include/xercesc/util/PlatformUtils.hpp \
+  /usr/include/xercesc/util/QName.hpp \
+  /usr/include/xercesc/util/RefArrayVectorOf.c \
+  /usr/include/xercesc/util/RefArrayVectorOf.hpp \
+  /usr/include/xercesc/util/RefHashTableOf.c \
+  /usr/include/xercesc/util/RefHashTableOf.hpp \
+  /usr/include/xercesc/util/RefVectorOf.c \
+  /usr/include/xercesc/util/RefVectorOf.hpp \
+  /usr/include/xercesc/util/RuntimeException.hpp \
+  /usr/include/xercesc/util/SecurityManager.hpp \
+  /usr/include/xercesc/util/ValueStackOf.c \
+  /usr/include/xercesc/util/ValueStackOf.hpp \
+  /usr/include/xercesc/util/ValueVectorOf.c \
+  /usr/include/xercesc/util/ValueVectorOf.hpp \
+  /usr/include/xercesc/util/XMLEnumerator.hpp \
+  /usr/include/xercesc/util/XMLExceptMsgs.hpp \
+  /usr/include/xercesc/util/XMLException.hpp \
+  /usr/include/xercesc/util/XMLFileMgr.hpp \
+  /usr/include/xercesc/util/XMLMutexMgr.hpp \
+  /usr/include/xercesc/util/XMLString.hpp \
+  /usr/include/xercesc/util/XMLUni.hpp \
+  /usr/include/xercesc/util/XMLUniDefs.hpp \
+  /usr/include/xercesc/util/XMemory.hpp \
+  /usr/include/xercesc/util/XercesDefs.hpp \
+  /usr/include/xercesc/util/XercesVersion.hpp \
+  /usr/include/xercesc/util/Xerces_autoconf_config.hpp \
+  /usr/include/xercesc/util/regx/BMPattern.hpp \
+  /usr/include/xercesc/util/regx/Op.hpp \
+  /usr/include/xercesc/util/regx/OpFactory.hpp \
+  /usr/include/xercesc/util/regx/RegularExpression.hpp \
+  /usr/include/xercesc/util/regx/RegxUtil.hpp \
+  /usr/include/xercesc/util/regx/Token.hpp \
+  /usr/include/xercesc/util/regx/TokenFactory.hpp \
+  /usr/include/xercesc/validators/DTD/DTDAttDef.hpp \
+  /usr/include/xercesc/validators/DTD/DTDElementDecl.hpp \
+  /usr/include/xercesc/validators/DTD/DTDEntityDecl.hpp \
+  /usr/include/xercesc/validators/DTD/DocTypeHandler.hpp \
+  /usr/include/xercesc/validators/common/Grammar.hpp \
+  /usr/include/xercesc/validators/datatype/DatatypeValidator.hpp \
+  /usr/include/xercesc/validators/schema/SchemaSymbols.hpp \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/limits.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdarg.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stddef.h \
@@ -5518,8 +5716,6 @@ exampleB1: /usr/lib/libc.so \
 
 /usr/lib32/libcurl.so.4:
 
-/usr/lib32/libcrypto.so.3:
-
 /usr/lib32/libcom_err.so.2:
 
 /usr/lib32/libbz2.so.1.0:
@@ -5566,6 +5762,240 @@ exampleB1: /usr/lib/libc.so \
 
 /usr/lib/libfontconfig.so.1:
 
+/usr/lib/libdouble-conversion.so.3:
+
+/usr/lib/libcurl.so.4:
+
+/usr/lib/libcap.so.2:
+
+/usr/lib/libbz2.so.1.0:
+
+/usr/lib/libbrotlidec.so.1:
+
+/usr/lib/libb2.so.1:
+
+/usr/lib/libXrender.so.1:
+
+/usr/lib/libXft.so.2:
+
+/usr/lib/libXau.so.6:
+
+/usr/lib/libQt6OpenGLWidgets.so.6:
+
+/usr/lib/libQt6DBus.so.6:
+
+/usr/lib/libm.so:
+
+/usr/lib/libgcc_s.so:
+
+/usr/lib/libc.so:
+
+/home/apricot/Desktop/HPGeEfficiency/src/SteppingAction.cc:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4AccumulableManager.icc:
+
+/home/apricot/Desktop/HPGeEfficiency/src/RunAction.cc:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VStoreNotifier.hh:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VNotifier.hh:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4IonTable.hh:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ChargedGeantino.hh:
+
+/home/apricot/Desktop/HPGeEfficiency/src/PrimaryGeneratorAction.cc:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/QBBC.hh:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4RadioactiveDecayPhysics.hh:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4PhysListFactory.hh:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4EmStandardPhysics.hh:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4EmLowEPPhysics.hh:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4DecayProcessType.hh:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4DecayPhysics.hh:
+
+/home/apricot/Desktop/HPGeEfficiency/src/HistoManager.cc:
+
+/home/apricot/Desktop/HPGeEfficiency/src/EventAction.cc:
+
+/usr/include/xercesc/validators/schema/SchemaSymbols.hpp:
+
+/usr/include/xercesc/validators/datatype/DatatypeValidator.hpp:
+
+/usr/include/xercesc/validators/common/Grammar.hpp:
+
+/usr/include/xercesc/validators/DTD/DTDEntityDecl.hpp:
+
+/usr/include/xercesc/validators/DTD/DTDElementDecl.hpp:
+
+/usr/include/xercesc/validators/DTD/DTDAttDef.hpp:
+
+/usr/include/xercesc/util/regx/TokenFactory.hpp:
+
+/usr/lib/libcom_err.so.2:
+
+/usr/include/xercesc/util/regx/RegxUtil.hpp:
+
+/usr/include/xercesc/util/regx/RegularExpression.hpp:
+
+/usr/include/xercesc/util/regx/Op.hpp:
+
+/usr/include/xercesc/util/regx/BMPattern.hpp:
+
+/usr/include/xercesc/util/Xerces_autoconf_config.hpp:
+
+/usr/include/xercesc/util/XercesVersion.hpp:
+
+/usr/include/xercesc/util/XercesDefs.hpp:
+
+/usr/include/xercesc/util/XMemory.hpp:
+
+/usr/include/xercesc/util/XMLUniDefs.hpp:
+
+/usr/include/xercesc/util/XMLString.hpp:
+
+/usr/include/xercesc/util/XMLFileMgr.hpp:
+
+/usr/include/xercesc/util/XMLEnumerator.hpp:
+
+/usr/include/xercesc/util/ValueVectorOf.hpp:
+
+/usr/include/xercesc/util/ValueVectorOf.c:
+
+/usr/include/xercesc/util/ValueStackOf.hpp:
+
+/usr/include/xercesc/util/ValueStackOf.c:
+
+/usr/include/xercesc/util/RuntimeException.hpp:
+
+/usr/include/xercesc/util/RefVectorOf.hpp:
+
+/usr/include/xercesc/util/RefVectorOf.c:
+
+/usr/include/xercesc/util/RefHashTableOf.hpp:
+
+/usr/include/xercesc/util/RefHashTableOf.c:
+
+/usr/include/xercesc/util/RefArrayVectorOf.hpp:
+
+/usr/include/xercesc/util/RefArrayVectorOf.c:
+
+/usr/include/xercesc/util/QName.hpp:
+
+/usr/include/xercesc/util/PlatformUtils.hpp:
+
+/usr/include/xercesc/util/NoSuchElementException.hpp:
+
+/usr/include/xercesc/util/NameIdPool.c:
+
+/usr/include/xercesc/util/Mutexes.hpp:
+
+/usr/include/xercesc/util/KVStringPair.hpp:
+
+/usr/include/xercesc/util/Janitor.c:
+
+/usr/include/xercesc/util/IllegalArgumentException.hpp:
+
+/usr/include/xercesc/util/Hashers.hpp:
+
+/usr/include/xercesc/util/EmptyStackException.hpp:
+
+/usr/include/xercesc/util/BaseRefVectorOf.hpp:
+
+/usr/include/xercesc/util/BaseRefVectorOf.c:
+
+/usr/include/xercesc/sax/SAXException.hpp:
+
+/usr/include/xercesc/sax/HandlerBase.hpp:
+
+/usr/include/xercesc/sax/ErrorHandler.hpp:
+
+/usr/include/xercesc/parsers/XercesDOMParser.hpp:
+
+/usr/lib/libXdmcp.so.6:
+
+/usr/include/xercesc/internal/XSerializeEngine.hpp:
+
+/usr/include/xercesc/internal/XProtoType.hpp:
+
+/usr/include/xercesc/framework/psvi/XSTypeDefinition.hpp:
+
+/usr/include/xercesc/framework/psvi/XSObject.hpp:
+
+/usr/include/xercesc/framework/XMLFormatter.hpp:
+
+/usr/include/xercesc/framework/XMLEntityHandler.hpp:
+
+/usr/include/xercesc/framework/XMLElementDecl.hpp:
+
+/usr/include/xercesc/framework/XMLDocumentHandler.hpp:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Decay.hh:
+
+/usr/include/xercesc/framework/XMLBuffer.hpp:
+
+/usr/include/xercesc/framework/XMLAttr.hpp:
+
+/usr/include/xercesc/framework/ValidationContext.hpp:
+
+/usr/include/xercesc/framework/LocalFileFormatTarget.hpp:
+
+/usr/include/xercesc/dom/DOMXPathNamespace.hpp:
+
+/usr/include/xercesc/dom/DOMXPathException.hpp:
+
+/usr/include/xercesc/dom/DOMXPathEvaluator.hpp:
+
+/usr/include/xercesc/util/NullPointerException.hpp:
+
+/usr/include/xercesc/util/NameIdPool.hpp:
+
+/usr/include/xercesc/dom/DOMUserDataHandler.hpp:
+
+/usr/include/xercesc/dom/DOMTypeInfo.hpp:
+
+/usr/include/xercesc/dom/DOMTreeWalker.hpp:
+
+/usr/include/xercesc/dom/DOMText.hpp:
+
+/usr/include/xercesc/dom/DOMProcessingInstruction.hpp:
+
+/usr/include/xercesc/dom/DOMPSVITypeInfo.hpp:
+
+/usr/include/xercesc/dom/DOMNotation.hpp:
+
+/usr/include/xercesc/dom/DOMNodeFilter.hpp:
+
+/usr/include/xercesc/internal/XSerializable.hpp:
+
+/usr/include/xercesc/dom/DOMNode.hpp:
+
+/usr/include/xercesc/dom/DOMLSSerializerFilter.hpp:
+
+/usr/lib32/libcrypto.so.3:
+
+/usr/include/xercesc/dom/DOMLSSerializer.hpp:
+
+/usr/include/xercesc/dom/DOMLSResourceResolver.hpp:
+
+/usr/include/xercesc/util/ArrayIndexOutOfBoundsException.hpp:
+
+/usr/include/xercesc/dom/DOMLSParser.hpp:
+
+/usr/include/xercesc/dom/DOMLSInput.hpp:
+
+/usr/include/xercesc/dom/DOMImplementationSource.hpp:
+
+/usr/include/xercesc/dom/DOMImplementationLS.hpp:
+
+/usr/include/xercesc/dom/DOMImplementation.hpp:
+
 /usr/include/c++/14.2.1/bit:
 
 /usr/include/bits/types/__sigset_t.h:
@@ -5606,7 +6036,11 @@ exampleB1: /usr/lib/libc.so \
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vlintrin.h:
 
+/usr/include/xercesc/parsers/AbstractDOMParser.hpp:
+
 /usr/include/bits/types/sigset_t.h:
+
+/usr/include/xercesc/dom/DOMNodeIterator.hpp:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ios.hh:
 
@@ -5621,6 +6055,8 @@ exampleB1: /usr/lib/libc.so \
 /usr/include/bits/types/__mbstate_t.h:
 
 /usr/include/bits/types/__fpos_t.h:
+
+/usr/include/xercesc/framework/XMLBufferMgr.hpp:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Vector/ThreeVector.icc:
 
@@ -5638,9 +6074,9 @@ exampleB1: /usr/lib/libc.so \
 
 /usr/include/c++/14.2.1/bits/stl_tempbuf.h:
 
-/usr/lib/libXft.so.2:
-
 /usr/include/bits/stdio_lim.h:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GDMLParser.hh:
 
 /usr/include/bits/stdint-least.h:
 
@@ -5676,8 +6112,6 @@ exampleB1: /usr/lib/libc.so \
 
 /usr/include/bits/mathcalls-helper-functions.h:
 
-/home/apricot/Desktop/HPGeEfficiency/src/RunAction.cc:
-
 /usr/include/bits/uio_lim.h:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/PTL/TaskManager.hh:
@@ -5685,6 +6119,8 @@ exampleB1: /usr/lib/libc.so \
 /usr/include/bits/libc-header-start.h:
 
 /usr/include/bits/getopt_core.h:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GDMLAuxStructType.hh:
 
 /usr/include/bits/fp-fast.h:
 
@@ -5714,6 +6150,8 @@ exampleB1: /usr/lib/libc.so \
 
 /usr/include/bits/types/struct_timeval.h:
 
+/usr/include/xercesc/dom/DOMRangeException.hpp:
+
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ToolsAnalysisManager.icc:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/PTL/Utility.hh:
@@ -5733,8 +6171,6 @@ exampleB1: /usr/lib/libc.so \
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/PTL/TaskRunManager.hh:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/PTL/TaskGroup.hh:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/mwaitxintrin.h:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VAnalysisManager.icc:
 
@@ -5760,6 +6196,8 @@ exampleB1: /usr/lib/libc.so \
 
 /usr/include/c++/14.2.1/array:
 
+/usr/include/xercesc/dom/DOMStringList.hpp:
+
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4NullModel.hh:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VoxelNavigation.icc:
@@ -5770,9 +6208,13 @@ exampleB1: /usr/lib/libc.so \
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VisExtent.hh:
 
+/usr/include/xercesc/dom/DOMXPathExpression.hpp:
+
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VCSGfaceted.hh:
 
 /usr/include/qt6/QtCore/qswap.h:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ExtrudedSolid.icc:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/clflushoptintrin.h:
 
@@ -5804,8 +6246,6 @@ exampleB1: /usr/lib/libc.so \
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VUserActionInitialization.hh:
 
-/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VUPLSplitter.hh:
-
 /usr/include/qt6/QtCore/qtdeprecationmarkers.h:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4THnToolsManager.icc:
@@ -5835,6 +6275,10 @@ exampleB1: /usr/lib/libc.so \
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/PTL/VUserTaskQueue.hh:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4PhysicsModelCatalog.hh:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/mwaitxintrin.h:
+
+/usr/include/xercesc/dom/DOMDocumentType.hpp:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4LogicalVolumeStore.hh:
 
@@ -5908,6 +6352,8 @@ exampleB1: /usr/lib/libc.so \
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4UIdirectory.hh:
 
+/usr/include/xercesc/framework/XMLNotationDecl.hpp:
+
 /usr/include/bits/types/sigevent_t.h:
 
 /usr/include/c++/14.2.1/bits/std_mutex.h:
@@ -5915,6 +6361,8 @@ exampleB1: /usr/lib/libc.so \
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4UIparameter.hh:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/tools/histo/base_histo:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GDMLReadMaterials.hh:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4UserSteppingAction.hh:
 
@@ -5940,6 +6388,10 @@ exampleB1: /usr/lib/libc.so \
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Random/RandPoisson.h:
 
+/usr/lib/ld-linux-x86-64.so.2:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Orb.hh:
+
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512ifmaintrin.h:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Tubs.icc:
@@ -5952,6 +6404,10 @@ exampleB1: /usr/lib/libc.so \
 
 /usr/include/c++/14.2.1/bits/locale_classes.h:
 
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4AccumulableManager.hh:
+
+/usr/include/qt6/QtCore/qtenvironmentvariables.h:
+
 /usr/include/bits/thread-shared-types.h:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/tools/typedefs:
@@ -5963,6 +6419,10 @@ exampleB1: /usr/lib/libc.so \
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4TrackingManager.hh:
 
 /usr/include/qt6/QtCore/qttranslation.h:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4RandomDirection.hh:
+
+/home/apricot/Desktop/HPGeEfficiency/src/DetectorConstruction.cc:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4AttDef.hh:
 
@@ -5984,6 +6444,8 @@ exampleB1: /usr/lib/libc.so \
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Random/RandLandau.icc:
 
+/usr/include/xercesc/dom/DOMError.hpp:
+
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Material.hh:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Fcn.hh:
@@ -5991,6 +6453,12 @@ exampleB1: /usr/lib/libc.so \
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Torus.icc:
 
 /usr/include/c++/14.2.1/bits/regex_automaton.h:
+
+/usr/lib/libGLdispatch.so.0:
+
+/usr/include/bits/types/__locale_t.h:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VModel.icc:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4DataVector.icc:
 
@@ -6011,8 +6479,6 @@ exampleB1: /usr/lib/libc.so \
 /usr/include/c++/14.2.1/bits/predefined_ops.h:
 
 /usr/include/c++/14.2.1/bits/node_handle.h:
-
-/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4TaskManager.hh:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4TouchableHandle.hh:
 
@@ -6054,19 +6520,17 @@ exampleB1: /usr/lib/libc.so \
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4DataVector.hh:
 
-/usr/lib/libbz2.so.1.0:
-
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4DAWNFILE.hh:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4AnalysisManagerState.hh:
 
 /usr/include/bits/atomic_wide_counter.h:
 
-/usr/include/c++/14.2.1/bits/basic_string.tcc:
-
-/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4CSGSolid.hh:
+/usr/include/xercesc/dom/DOMLSParserFilter.hpp:
 
 /usr/include/bits/confname.h:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GDMLMessenger.hh:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VTBaseHnManager.hh:
 
@@ -6102,6 +6566,8 @@ exampleB1: /usr/lib/libc.so \
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VTHnFileManager.hh:
 
+/usr/include/xercesc/framework/MemoryManager.hpp:
+
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Cons.hh:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4CacheDetails.hh:
@@ -6120,7 +6586,11 @@ exampleB1: /usr/lib/libc.so \
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4OpenGLStoredQt.hh:
 
+/usr/include/xercesc/dom/DOMLocator.hpp:
+
 /usr/include/c++/14.2.1/ctime:
+
+/usr/include/xercesc/dom/DOMConfiguration.hpp:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/clzerointrin.h:
 
@@ -6148,8 +6618,6 @@ exampleB1: /usr/lib/libc.so \
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Vector/TwoVector.icc:
 
-/usr/include/bits/types/struct_tm.h:
-
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Vector/AxisAngle.icc:
 
 /usr/lib/libxcb.so.1:
@@ -6163,8 +6631,6 @@ exampleB1: /usr/lib/libc.so \
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Vector/RotationY.h:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4MTRunManager.hh:
-
-/usr/include/c++/14.2.1/bits/new_allocator.h:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VMarker.icc:
 
@@ -6192,17 +6658,21 @@ exampleB1: /usr/lib/libc.so \
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ParticleChange.hh:
 
+/usr/include/xercesc/framework/XMLEntityDecl.hpp:
+
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4TrackStatus.hh:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Units/PhysicalConstants.h:
 
-/usr/lib/libcom_err.so.2:
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GDMLReadSolids.hh:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4RunManagerFactory.hh:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VVisManager.hh:
 
 /usr/include/c++/14.2.1/bits/stl_construct.h:
+
+/usr/include/xercesc/dom/DOMImplementationList.hpp:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ElectronOccupancy.hh:
 
@@ -6211,8 +6681,6 @@ exampleB1: /usr/lib/libc.so \
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4PhysicsVectorType.hh:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vnnivlintrin.h:
-
-/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4UserStackingAction.hh:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ReplicaNavigation.icc:
 
@@ -6246,9 +6714,15 @@ exampleB1: /usr/lib/libc.so \
 
 /usr/include/c++/14.2.1/cstddef:
 
+/usr/include/xercesc/util/XMLMutexMgr.hpp:
+
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/tools/histo/h1:
 
+/usr/include/xercesc/dom/DOMDocument.hpp:
+
 /usr/include/bits/flt-eval-method.h:
+
+/usr/include/xercesc/dom/DOMImplementationRegistry.hpp:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VExternalNavigation.hh:
 
@@ -6273,6 +6747,8 @@ exampleB1: /usr/lib/libc.so \
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/globals.hh:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Backtrace.hh:
+
+/usr/include/xercesc/dom/DOMCDATASection.hpp:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Random/RanluxppEngine.h:
 
@@ -6305,6 +6781,10 @@ exampleB1: /usr/lib/libc.so \
 /usr/include/c++/14.2.1/string:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Para.icc:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VRestDiscreteProcess.hh:
+
+/usr/include/bits/pthreadtypes.h:
 
 /usr/include/c++/14.2.1/cstdio:
 
@@ -6342,8 +6822,6 @@ exampleB1: /usr/lib/libc.so \
 
 /usr/include/c++/14.2.1/bits/basic_string.h:
 
-/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ChargedGeantino.hh:
-
 /usr/include/bits/ss_flags.h:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4EnvironmentUtils.hh:
@@ -6356,9 +6834,13 @@ exampleB1: /usr/lib/libc.so \
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Random/RandBreitWigner.h:
 
+/usr/include/xercesc/validators/DTD/DocTypeHandler.hpp:
+
 /usr/include/bits/siginfo-arch.h:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Log.hh:
+
+/usr/include/xercesc/sax/DTDHandler.hpp:
 
 /usr/include/bits/time64.h:
 
@@ -6396,8 +6878,6 @@ exampleB1: /usr/lib/libc.so \
 
 /usr/include/sched.h:
 
-/usr/lib/libQt6DBus.so.6:
-
 /usr/include/bits/setjmp.h:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GenericFileManager.hh:
@@ -6415,6 +6895,8 @@ exampleB1: /usr/lib/libc.so \
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Geometry/Transform3D.h:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Navigator.icc:
+
+/usr/include/xercesc/framework/XMLAttDef.hpp:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Random/JamesRandom.h:
 
@@ -6476,6 +6958,8 @@ exampleB1: /usr/lib/libc.so \
 
 /home/apricot/Desktop/HPGeEfficiency/include/DetectorConstruction.hh:
 
+/usr/include/xercesc/sax/EntityResolver.hpp:
+
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Random/RandGamma.icc:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VModularPhysicsList.hh:
@@ -6485,6 +6969,12 @@ exampleB1: /usr/lib/libc.so \
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Geometry/Normal3D.h:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Cons.icc:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VUPLSplitter.hh:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ExtrudedSolid.hh:
+
+/usr/include/xercesc/framework/psvi/XSSimpleTypeDefinition.hpp:
 
 /usr/include/bits/struct_rwlock.h:
 
@@ -6538,6 +7028,12 @@ exampleB1: /usr/lib/libc.so \
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4PhysicalVolumeModel.hh:
 
+/home/apricot/Desktop/HPGeEfficiency/src/PhysicsList.cc:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/sha512intrin.h:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Random/Randomize.h:
+
 /usr/include/bits/types/wint_t.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vbmivlintrin.h:
@@ -6546,11 +7042,15 @@ exampleB1: /usr/lib/libc.so \
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Orb.icc:
 
+/usr/include/xercesc/util/SecurityManager.hpp:
+
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Random/RandPoisson.icc:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Random/RandPoissonQ.icc:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Random/RandStudentT.icc:
+
+/usr/include/xercesc/util/PanicHandler.hpp:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ToolsSGX11GLES.hh:
 
@@ -6602,6 +7102,8 @@ exampleB1: /usr/lib/libc.so \
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4NavigationHistory.hh:
 
+/usr/include/xercesc/util/XMLException.hpp:
+
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4NavigationHistoryPool.hh:
 
 /usr/include/bits/mathcalls.h:
@@ -6628,17 +7130,23 @@ exampleB1: /usr/lib/libc.so \
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4LogicalVolume.hh:
 
-/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Decay.hh:
-
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ToolsSGQtZB.hh:
 
 /usr/include/c++/14.2.1/bits/functional_hash.h:
+
+/usr/include/c++/14.2.1/bits/new_allocator.h:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4SafetyHelper.hh:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ModelingParameters.hh:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/graphics_reps_defs.hh:
 
+/usr/include/xercesc/util/regx/Token.hpp:
+
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/xsaveoptintrin.h:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GDMLRead.hh:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4LorentzVector.hh:
 
@@ -6650,11 +7158,7 @@ exampleB1: /usr/lib/libc.so \
 
 /usr/include/qt6/QtCore/qsystemdetection.h:
 
-/usr/lib/libXdmcp.so.6:
-
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4MCCIndexConversionTable.hh:
-
-/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4EmLowEPPhysics.hh:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ProductionCuts.hh:
 
@@ -6698,8 +7202,6 @@ exampleB1: /usr/lib/libc.so \
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Exp.hh:
 
-/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4DecayPhysics.hh:
-
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ParameterisedNavigation.hh:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4OpenGLImmediateXm.hh:
@@ -6714,21 +7216,17 @@ exampleB1: /usr/lib/libc.so \
 
 /usr/include/c++/14.2.1/pstl/glue_algorithm_defs.h:
 
-/usr/lib/libdouble-conversion.so.3:
-
 /home/apricot/Desktop/HPGeEfficiency/exampleB1.cc:
-
-/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VStoreNotifier.hh:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VisExecutive.hh:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4OpenInventor.hh:
 
-/usr/include/c++/14.2.1/bits/allocator.h:
-
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4THitsMap.hh:
 
 /usr/include/c++/14.2.1/debug/debug.h:
+
+/usr/include/inttypes.h:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ViewParameters.icc:
 
@@ -6760,21 +7258,25 @@ exampleB1: /usr/lib/libc.so \
 
 /usr/include/c++/14.2.1/bits/regex_compiler.h:
 
-/home/apricot/Desktop/HPGeEfficiency/src/DetectorConstruction.cc:
-
-/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4RandomDirection.hh:
-
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4PDefManager.hh:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/PTL/Config.hh:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Para.hh:
 
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GDMLReadSetup.hh:
+
 /usr/include/bits/types/clockid_t.h:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4TaskManager.hh:
+
+/usr/include/xercesc/dom/DOMCharacterData.hpp:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ProductionCutsTable.hh:
 
 /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/messages_members.h:
+
+/usr/include/xercesc/dom/DOMNamedNodeMap.hpp:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4PhysicsListHelper.hh:
 
@@ -6786,6 +7288,12 @@ exampleB1: /usr/lib/libc.so \
 
 /usr/include/c++/14.2.1/map:
 
+/usr/lib/libcrypto.so.3:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4PhysicsTable.hh:
+
+/usr/include/xercesc/framework/psvi/PSVIHandler.hpp:
+
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4LogicalVolume.icc:
 
 /usr/include/c++/14.2.1/bits/regex_executor.tcc:
@@ -6794,7 +7302,15 @@ exampleB1: /usr/lib/libc.so \
 
 /usr/include/gnu/stubs-64.h:
 
+/usr/include/xercesc/framework/XMLErrorReporter.hpp:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GDMLParameterisation.hh:
+
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4TessellatedSolid.hh:
+
+/usr/include/c++/14.2.1/bits/allocator.h:
+
+/usr/include/xercesc/dom/DOMErrorHandler.hpp:
 
 /usr/include/c++/14.2.1/bits/allocated_ptr.h:
 
@@ -6818,6 +7334,8 @@ exampleB1: /usr/lib/libc.so \
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ProcessManager.hh:
 
+/usr/include/xercesc/util/XMLUni.hpp:
+
 /usr/include/c++/14.2.1/type_traits:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ProcessType.hh:
@@ -6829,6 +7347,8 @@ exampleB1: /usr/lib/libc.so \
 /usr/include/bits/types/mbstate_t.h:
 
 /usr/include/bits/signal_ext.h:
+
+/usr/include/xercesc/dom/DOMXPathNSResolver.hpp:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VProcess.hh:
 
@@ -6879,6 +7399,10 @@ exampleB1: /usr/lib/libc.so \
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4NoProcess.hh:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4SandiaTable.hh:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Run.hh:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Scene.hh:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4SceneList.hh:
 
@@ -6934,13 +7458,9 @@ exampleB1: /usr/lib/libc.so \
 
 /usr/include/c++/14.2.1/bits/erase_if.h:
 
-/usr/include/bits/types/__locale_t.h:
-
-/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VModel.icc:
-
-/usr/lib/libGLdispatch.so.0:
-
 /usr/include/c++/14.2.1/bits/exception_defines.h:
+
+/usr/include/xercesc/dom/DOMDocumentFragment.hpp:
 
 /usr/include/c++/14.2.1/bits/stl_tree.h:
 
@@ -6984,7 +7504,11 @@ exampleB1: /usr/lib/libc.so \
 
 /usr/include/qt6/QtCore/qatomic_cxx11.h:
 
+/usr/include/xercesc/framework/XMLContentModel.hpp:
+
 /usr/include/c++/14.2.1/bits/locale_facets_nonio.h:
+
+/usr/include/xercesc/internal/XSerializationException.hpp:
 
 /usr/include/bits/wctype-wchar.h:
 
@@ -6996,11 +7520,15 @@ exampleB1: /usr/lib/libc.so \
 
 /usr/include/c++/14.2.1/bits/move.h:
 
+/usr/include/xercesc/dom/DOMLSException.hpp:
+
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Random/RandExponential.h:
 
 /usr/include/c++/14.2.1/bits/this_thread_sleep.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/xsaveintrin.h:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GDMLWriteSetup.hh:
 
 /usr/include/c++/14.2.1/bits/nested_exception.h:
 
@@ -7019,8 +7547,6 @@ exampleB1: /usr/lib/libc.so \
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4AffineTransform.icc:
 
 /usr/include/c++/14.2.1/bits/quoted_string.h:
-
-/opt/Geant4/Geant4-v11.2.2/include/Geant4/tools/histo/p2d:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VTouchable.hh:
 
@@ -7075,8 +7601,6 @@ exampleB1: /usr/lib/libc.so \
 /usr/include/c++/14.2.1/bits/stl_bvector.h:
 
 /usr/include/c++/14.2.1/bits/stl_deque.h:
-
-/home/apricot/Desktop/HPGeEfficiency/src/HistoManager.cc:
 
 /usr/include/c++/14.2.1/bits/stl_iterator.h:
 
@@ -7136,9 +7660,13 @@ exampleB1: /usr/lib/libc.so \
 
 /usr/include/c++/14.2.1/cerrno:
 
+/usr/include/xercesc/dom/DOMNodeList.hpp:
+
 /usr/include/qt6/QtCore/qtcore-config.h:
 
 /usr/include/c++/14.2.1/cfenv:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Evaluator/Evaluator.h:
 
 /usr/include/c++/14.2.1/climits:
 
@@ -7165,6 +7693,8 @@ exampleB1: /usr/lib/libc.so \
 /usr/include/c++/14.2.1/concepts:
 
 /usr/include/c++/14.2.1/cstring:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Evaluator.hh:
 
 /usr/include/qt6/QtCore/qconstructormacros.h:
 
@@ -7254,6 +7784,8 @@ exampleB1: /usr/lib/libc.so \
 
 /usr/lib32/libidn2.so.0:
 
+/usr/include/xercesc/dom/DOMLSOutput.hpp:
+
 /usr/include/c++/14.2.1/sstream:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Vector/LorentzVector.h:
@@ -7288,6 +7820,8 @@ exampleB1: /usr/lib/libc.so \
 
 /usr/include/qt6/QtCore/qforeach.h:
 
+/usr/include/xercesc/util/XMLExceptMsgs.hpp:
+
 /usr/include/c++/14.2.1/typeinfo:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/serializeintrin.h:
@@ -7302,8 +7836,6 @@ exampleB1: /usr/lib/libc.so \
 
 /usr/include/c++/14.2.1/variant:
 
-/usr/lib/libXrender.so.1:
-
 /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h:
 
 /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++locale.h:
@@ -7312,9 +7844,13 @@ exampleB1: /usr/lib/libc.so \
 
 /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h:
 
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Hype.icc:
+
 /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/cxxabi_tweaks.h:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/tools/histo/p2:
+
+/usr/include/xercesc/framework/psvi/XSConstants.hpp:
 
 /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/gthr.h:
 
@@ -7325,6 +7861,10 @@ exampleB1: /usr/lib/libc.so \
 /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/os_defines.h:
 
 /usr/include/sys/types.h:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4UserStackingAction.hh:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GDMLWrite.hh:
 
 /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/time_members.h:
 
@@ -7354,6 +7894,16 @@ exampleB1: /usr/lib/libc.so \
 
 /usr/include/qt6/QtCore/qglobalstatic.h:
 
+/usr/lib/libdbus-1.so.3:
+
+/usr/include/bits/stdint-intn.h:
+
+/usr/include/execinfo.h:
+
+/usr/include/c++/14.2.1/tr1/gamma.tcc:
+
+/usr/include/oneapi/tbb/detail/_aligned_space.h:
+
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vlbwintrin.h:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ViewerList.hh:
@@ -7364,17 +7914,19 @@ exampleB1: /usr/lib/libc.so \
 
 /usr/include/oneapi/tbb/detail/_namespace_injection.h:
 
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4STRead.hh:
+
 /usr/include/c++/14.2.1/pstl/pstl_config.h:
 
 /usr/include/oneapi/tbb/detail/_string_resource.h:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GDMLWriteMaterials.hh:
 
 /usr/lib32/libbrotlidec.so.1:
 
 /usr/include/c++/14.2.1/bits/range_access.h:
 
 /usr/include/oneapi/tbb/detail/_task.h:
-
-/usr/lib/libm.so:
 
 /usr/include/oneapi/tbb/detail/_task_handle.h:
 
@@ -7388,8 +7940,6 @@ exampleB1: /usr/lib/libc.so \
 
 /usr/include/oneapi/tbb/detail/_utils.h:
 
-/usr/lib/libbrotlidec.so.1:
-
 /usr/include/oneapi/tbb/global_control.h:
 
 /usr/include/oneapi/tbb/info.h:
@@ -7399,6 +7949,14 @@ exampleB1: /usr/lib/libc.so \
 /usr/include/oneapi/tbb/profiling.h:
 
 /usr/include/oneapi/tbb/task_arena.h:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ParticleChangeForDecay.hh:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/PTL/Task.hh:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/amxint8intrin.h:
+
+/usr/include/oneapi/tbb/task_group.h:
 
 /usr/include/qt6/QtCore/qassert.h:
 
@@ -7411,6 +7969,8 @@ exampleB1: /usr/lib/libc.so \
 /usr/include/qt6/QtCore/qdarwinhelpers.h:
 
 /usr/lib/libglib-2.0.so.0:
+
+/usr/include/xercesc/sax/DocumentHandler.hpp:
 
 /usr/include/qt6/QtCore/qfunctionpointer.h:
 
@@ -7430,6 +7990,8 @@ exampleB1: /usr/lib/libc.so \
 
 /usr/include/qt6/QtCore/qoverload.h:
 
+/usr/include/xercesc/dom/DOMComment.hpp:
+
 /usr/include/qt6/QtCore/qsysinfo.h:
 
 /usr/include/qt6/QtCore/qtclasshelpermacros.h:
@@ -7438,13 +8000,13 @@ exampleB1: /usr/lib/libc.so \
 
 /usr/include/qt6/QtCore/qtdeprecationdefinitions.h:
 
-/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4RadioactiveDecayPhysics.hh:
-
 /usr/include/qt6/QtCore/qtnoop.h:
+
+/usr/include/xercesc/sax/SAXParseException.hpp:
 
 /usr/include/qt6/QtCore/qtpreprocessorsupport.h:
 
-/usr/lib/libXau.so.6:
+/usr/include/xercesc/util/Janitor.hpp:
 
 /usr/include/c++/14.2.1/vector:
 
@@ -7492,9 +8054,9 @@ exampleB1: /usr/lib/libc.so \
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512vbmiintrin.h:
 
-/usr/lib/libb2.so.1:
-
 /usr/include/qt6/QtCore/qcontainerfwd.h:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GDMLWriteDefine.hh:
 
 /usr/include/time.h:
 
@@ -7510,8 +8072,6 @@ exampleB1: /usr/lib/libc.so \
 
 /usr/include/wchar.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/adxintrin.h:
-
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/amxtileintrin.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx5124vnniwintrin.h:
@@ -7521,8 +8081,6 @@ exampleB1: /usr/lib/libc.so \
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ThreadLocalSingleton.hh:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512bf16intrin.h:
-
-/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4DecayProcessType.hh:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avx512bitalgintrin.h:
 
@@ -7554,6 +8112,8 @@ exampleB1: /usr/lib/libc.so \
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Accumulable.hh:
 
+/usr/include/xercesc/framework/XMLAttDefList.hpp:
+
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ThreadPool.hh:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/avxvnniintrin.h:
@@ -7582,14 +8142,6 @@ exampleB1: /usr/lib/libc.so \
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/fmaintrin.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/sha512intrin.h:
-
-/opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Random/Randomize.h:
-
-/home/apricot/Desktop/HPGeEfficiency/src/PhysicsList.cc:
-
-/home/apricot/Desktop/HPGeEfficiency/src/PrimaryGeneratorAction.cc:
-
 /usr/include/c++/14.2.1/streambuf:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/fxsrintrin.h:
@@ -7601,6 +8153,12 @@ exampleB1: /usr/lib/libc.so \
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/usermsrintrin.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/movdirintrin.h:
+
+/usr/include/c++/14.2.1/bits/basic_string.tcc:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4CSGSolid.hh:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4MultiUnion.hh:
 
 /usr/include/wctype.h:
 
@@ -7648,6 +8206,8 @@ exampleB1: /usr/lib/libc.so \
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/stdbool.h:
 
+/usr/include/xercesc/util/regx/OpFactory.hpp:
+
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/tbmintrin.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/tsxldtrkintrin.h:
@@ -7665,8 +8225,6 @@ exampleB1: /usr/lib/libc.so \
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/immintrin.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/xmmintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/xsavesintrin.h:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/CLHEP/Random/RandFlat.h:
 
@@ -7687,6 +8245,8 @@ exampleB1: /usr/lib/libc.so \
 /usr/include/tbb/task_group.h:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GenericAnalysisManager.icc:
+
+/usr/include/xercesc/dom/DOMElement.hpp:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4HnInformation.hh:
 
@@ -7728,6 +8288,8 @@ exampleB1: /usr/lib/libc.so \
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/tools/histo/b3:
 
+/usr/include/xercesc/dom/DOMRange.hpp:
+
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4PhysicsFreeVector.hh:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/tools/histo/h1d:
@@ -7750,9 +8312,13 @@ exampleB1: /usr/lib/libc.so \
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/tools/ntuple_booking:
 
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Hype.hh:
+
 /usr/include/c++/14.2.1/queue:
 
 /home/apricot/Desktop/HPGeEfficiency/include/SizeConstant.hh:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GDMLEvaluator.hh:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4IonisParamElm.hh:
 
@@ -7760,72 +8326,50 @@ exampleB1: /usr/lib/libc.so \
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4PVPlacement.hh:
 
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GDMLParser.icc:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GDMLReadDefine.hh:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/xsavesintrin.h:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GDMLReadParamvol.hh:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GDMLReadStructure.hh:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/adxintrin.h:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GDMLWriteParamvol.hh:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/tools/histo/p2d:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GDMLWriteSolids.hh:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4GDMLWriteStructure.hh:
+
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4TransportationManager.icc:
+
 /usr/include/bits/libm-simd-decl-stubs.h:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4StepStatus.hh:
 
 /opt/Geant4/Geant4-v11.2.2/include/Geant4/G4UnitsTable.hh:
 
-/home/apricot/Desktop/HPGeEfficiency/src/EventAction.cc:
+/usr/include/xercesc/dom/DOM.hpp:
 
-/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4EmStandardPhysics.hh:
+/usr/include/xercesc/dom/DOMAttr.hpp:
 
-/opt/Geant4/Geant4-v11.2.2/include/Geant4/PTL/Task.hh:
+/usr/include/xercesc/dom/DOMDocumentRange.hpp:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/amxint8intrin.h:
+/usr/include/xercesc/dom/DOMDocumentTraversal.hpp:
 
-/usr/include/oneapi/tbb/task_group.h:
+/usr/include/xercesc/dom/DOMXPathResult.hpp:
 
-/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4ParticleChangeForDecay.hh:
+/usr/include/xercesc/dom/DOMEntity.hpp:
 
-/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4PhysListFactory.hh:
+/usr/include/bits/types/struct_tm.h:
 
-/usr/include/bits/pthreadtypes.h:
+/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4TransportationManager.hh:
 
-/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VRestDiscreteProcess.hh:
+/usr/include/xercesc/dom/DOMEntityReference.hpp:
 
-/opt/Geant4/Geant4-v11.2.2/include/Geant4/QBBC.hh:
-
-/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4IonTable.hh:
-
-/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4VNotifier.hh:
-
-/usr/include/qt6/QtCore/qtenvironmentvariables.h:
-
-/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4AccumulableManager.hh:
-
-/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4AccumulableManager.icc:
-
-/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Scene.hh:
-
-/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Run.hh:
-
-/home/apricot/Desktop/HPGeEfficiency/src/SteppingAction.cc:
-
-/usr/lib/libc.so:
-
-/usr/lib/libgcc_s.so:
-
-/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4Orb.hh:
-
-/usr/lib/ld-linux-x86-64.so.2:
-
-/usr/lib/libQt6OpenGLWidgets.so.6:
-
-/usr/lib/libcap.so.2:
-
-/opt/Geant4/Geant4-v11.2.2/include/Geant4/G4PhysicsTable.hh:
-
-/usr/lib/libcrypto.so.3:
-
-/usr/lib/libcurl.so.4:
-
-/usr/include/bits/stdint-intn.h:
-
-/usr/include/execinfo.h:
-
-/usr/include/c++/14.2.1/tr1/gamma.tcc:
-
-/usr/include/oneapi/tbb/detail/_aligned_space.h:
-
-/usr/lib/libdbus-1.so.3:
+/usr/include/xercesc/dom/DOMException.hpp:

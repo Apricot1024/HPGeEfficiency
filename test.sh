@@ -8,7 +8,7 @@ cd /home/apricot/Desktop/HPGeEfficiency/
 cd build
 make
 # for j in {18..20}
-for j in {18}
+for j in 18
 do
     ./exampleB1 run${j}55.mac > log.txt
     rm log.txt
@@ -23,12 +23,12 @@ do
     root -l -q 'toHis.cpp'
     mv AnaEx01.root 58AnaEx01.root
     root -l -q 'haddhis.cc'
-    cp AnaEx01.root ../../20240822gamma_ana/sim_root2407/${j}AnaEx01.root
+    cp AnaEx01.root ../../gamma_ana/sim_root2407/${j}AnaEx01.root
     mv AnaEx01.root ../rootfile/${j}AnaEx01_50.root
 done
 
 # 生成效率数据
-cd ../../20240822gamma_ana
+cd ../../gamma_ana
 python3 ./src/sim_rundemo.py 50
 python3 ./src/plot_compare_demo.py 50
 

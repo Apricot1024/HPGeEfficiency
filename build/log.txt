@@ -86,11 +86,26 @@ Checking overlaps for volume outupDeadlayer:0 (G4Tubs) ... OK!
 Checking overlaps for volume outTDeadlayer:0 (G4Tubs) ... OK! 
 Checking overlaps for volume outBoDeadlayer:0 (G4Tubs) ... OK! 
 Checking overlaps for volume upTWindow:0 (G4Tubs) ... OK! 
+rmaxcout16.6695
 Checking overlaps for volume upBoWindow:0 (G4Tubs) ... OK! 
-Checking overlaps for volume upCoCup:0 (G4Tubs) ... OK! 
-Checking overlaps for volume TCoCup:0 (G4Tubs) ... OK! 
-Checking overlaps for volume BoCoCup:0 (G4Tubs) ... OK! 
-Checking overlaps for volume upCoEndcup:0 (G4Tubs) ... OK! 
+Checking overlaps for volume upCuCup:0 (G4Tubs) ... OK! 
+Checking overlaps for volume TCuCup:0 (G4Tubs) ... OK! 
+Checking overlaps for volume BoCuCup:0 (G4Tubs) ... OK! 
+Checking overlaps for volume upCuEndcap:0 (G4Tubs) ... OK! 
+Checking overlaps for volume TCuEndcap:0 (G4Tubs) ... OK! 
+Checking overlaps for volume BoCuEndcap:0 (G4Tubs) ... OK! 
+Checking overlaps for volume TOFCushield:0 (G4Tubs) ... OK! 
+Checking overlaps for volume upOFCushield:0 (G4Tubs) ... OK! 
+Checking overlaps for volume BoOFCushield:0 (G4Tubs) ... OK! 
+Checking overlaps for volume TLBPbshield:0 (G4Tubs) ... OK! 
+Checking overlaps for volume upLBPbshield:0 (G4Tubs) ... OK! 
+Checking overlaps for volume BoLBPbshield:0 (G4Tubs) ... OK! 
+Checking overlaps for volume TCdshield:0 (G4Tubs) ... OK! 
+Checking overlaps for volume upCdshield:0 (G4Tubs) ... OK! 
+Checking overlaps for volume BoCdshield:0 (G4Tubs) ... OK! 
+Checking overlaps for volume TPbshield:0 (G4Tubs) ... OK! 
+Checking overlaps for volume upPbshield:0 (G4Tubs) ... OK! 
+Checking overlaps for volume BoPbshield:0 (G4Tubs) ... OK! 
 =======================================================================
 ======                 Electromagnetic Physics Parameters      ========
 =======================================================================

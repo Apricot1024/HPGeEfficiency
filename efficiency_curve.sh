@@ -5,9 +5,9 @@ cd /home/apricot/Desktop/HPGeEfficiency/
 cd build
 make
 
-rm /home/apricot/Desktop/gamma_ana/sim_eff2408/*.txt
+# rm /home/apricot/Desktop/gamma_ana/sim_eff2408/*.txt
 
-for run in {1400..10000}
+for run in {3181..10000}
 do
     cd /home/apricot/Desktop/HPGeEfficiency/
     python3 adegr.py ${run}
