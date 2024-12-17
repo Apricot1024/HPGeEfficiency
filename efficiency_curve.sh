@@ -21,6 +21,8 @@ do
     cd ../../gamma_ana
     python3 ./src/sim_eff_rundemo.py ${run}
 
+    rm ./sim_eff2408/${run}AnaEx01.root
+
     echo ${run} 'keV simulation done'
 done
 
