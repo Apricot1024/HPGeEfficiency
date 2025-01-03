@@ -605,3 +605,70 @@ See commands in /vis/modeling/trajectories/ for other options.
 --> G4TaskRunManager::CreateAndStartWorkers() --> Creating 1000 tasks with 1000 events/task...
 ==============================================================================================
 
+G4WT11 > 
+G4WT11 > --------------------End of Local Run------------------------
+G4WT11 >  The run consists of 83000 gamma of 478 keV
+G4WT10 > 
+G4WT7 > 
+G4WT7 > --------------------End of Local Run------------------------
+G4WT7 >  The run consists of 84000 gamma of 478 keV
+G4WT7 >  Cumulated dose per run, in scoring volume : 607.331 picoGy  rms = 4.02884 picoGy 
+G4WT7 > ------------------------------------------------------------
+G4WT9 > 
+G4WT2 > 
+G4WT8 > 
+G4WT8 > --------------------End of Local Run------------------------
+G4WT8 >  The run consists of 84000 gamma of 478 keV
+G4WT1 > 
+G4WT1 > --------------------End of Local Run------------------------
+G4WT1 >  The run consists of 83000 gamma of 478 keV
+G4WT10 > --------------------End of Local Run------------------------
+G4WT10 >  The run consists of 83000 gamma of 478 keV
+G4WT10 >  Cumulated dose per run, in scoring volume : 599.457 picoGy  rms = 4.00802 picoGy 
+G4WT10 > ------------------------------------------------------------
+G4WT11 >  Cumulated dose per run, in scoring volume : 594.65 picoGy  rms = 3.99014 picoGy 
+G4WT11 > ------------------------------------------------------------
+G4WT2 > --------------------End of Local Run------------------------
+G4WT2 >  The run consists of 83000 gamma of 478 keV
+G4WT2 >  Cumulated dose per run, in scoring volume : 603.325 picoGy  rms = 4.02008 picoGy 
+G4WT2 > ------------------------------------------------------------
+G4WT0 > 
+G4WT4 > 
+G4WT1 >  Cumulated dose per run, in scoring volume : 602.74 picoGy  rms = 4.01938 picoGy 
+G4WT1 > ------------------------------------------------------------
+G4WT5 > 
+G4WT5 > --------------------End of Local Run------------------------
+G4WT5 >  The run consists of 83000 gamma of 478 keV
+G4WT8 >  Cumulated dose per run, in scoring volume : 607.011 picoGy  rms = 4.03316 picoGy 
+G4WT8 > ------------------------------------------------------------
+G4WT0 > --------------------End of Local Run------------------------
+G4WT0 >  The run consists of 82000 gamma of 478 keV
+G4WT9 > --------------------End of Local Run------------------------
+G4WT3 > 
+G4WT5 >  Cumulated dose per run, in scoring volume : 606.347 picoGy  rms = 4.02788 picoGy 
+G4WT5 > ------------------------------------------------------------
+G4WT6 > 
+G4WT6 > --------------------End of Local Run------------------------
+G4WT6 >  The run consists of 84000 gamma of 478 keV
+G4WT6 >  Cumulated dose per run, in scoring volume : 613.971 picoGy  rms = 4.05261 picoGy 
+G4WT6 > ------------------------------------------------------------
+G4WT9 >  The run consists of 84000 gamma of 478 keV
+G4WT3 > --------------------End of Local Run------------------------
+G4WT3 >  The run consists of 83000 gamma of 478 keV
+G4WT0 >  Cumulated dose per run, in scoring volume : 591.151 picoGy  rms = 3.9826 picoGy 
+G4WT0 > ------------------------------------------------------------
+G4WT9 >  Cumulated dose per run, in scoring volume : 608.402 picoGy  rms = 4.02759 picoGy 
+G4WT9 > ------------------------------------------------------------
+G4WT4 > --------------------End of Local Run------------------------
+G4WT3 >  Cumulated dose per run, in scoring volume : 606.785 picoGy  rms = 4.02325 picoGy 
+G4WT3 > ------------------------------------------------------------
+G4WT4 >  The run consists of 84000 gamma of 478 keV
+G4WT4 >  Cumulated dose per run, in scoring volume : 607.448 picoGy  rms = 4.03479 picoGy 
+G4WT4 > ------------------------------------------------------------
+
+--------------------End of Global Run-----------------------
+ The run consists of 1000000 
+ Cumulated dose per run, in scoring volume : 7.24862 nanoGy  rms = 13.9283 picoGy 
+------------------------------------------------------------
+Graphics systems deleted.
+Visualization Manager deleting...

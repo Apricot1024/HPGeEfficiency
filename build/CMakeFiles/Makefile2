@@ -103,6 +103,7 @@ exampleB1: CMakeFiles/exampleB1.dir/rule
 # codegen rule for target.
 CMakeFiles/exampleB1.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exampleB1.dir/build.make CMakeFiles/exampleB1.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/apricot/Desktop/HPGeEfficiency/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Finished codegen for target exampleB1"
 .PHONY : CMakeFiles/exampleB1.dir/codegen
 
 # clean rule for target.
@@ -134,6 +135,7 @@ B1: CMakeFiles/B1.dir/rule
 # codegen rule for target.
 CMakeFiles/B1.dir/codegen: CMakeFiles/exampleB1.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/B1.dir/build.make CMakeFiles/B1.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/apricot/Desktop/HPGeEfficiency/build/CMakeFiles --progress-num= "Finished codegen for target B1"
 .PHONY : CMakeFiles/B1.dir/codegen
 
 # clean rule for target.
