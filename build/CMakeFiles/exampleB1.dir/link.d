@@ -91,6 +91,7 @@ exampleB1: \
   /usr/lib/libQt6OpenGLWidgets.so.6 \
   /usr/lib/libSoQt.so.20 \
   /usr/lib/libCoin.so.80 \
+  /usr/lib/libxerces-c-3.2.so \
   /usr/lib/libXp.so.6 \
   /usr/lib/libfontconfig.so.1 \
   /usr/lib/libXft.so.2 \
@@ -357,6 +358,8 @@ CMakeFiles/exampleB1.dir/src/SteppingAction.cc.o:
 /usr/lib/libSoQt.so.20:
 
 /usr/lib/libCoin.so.80:
+
+/usr/lib/libxerces-c-3.2.so:
 
 /usr/lib/libXp.so.6:
 
