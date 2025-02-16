@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/apricot/Desktop/HPGeEfficiency
+CMAKE_SOURCE_DIR = /home/apricot/Documents/Science/05Simulations/20240822Efficiency
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/apricot/Desktop/HPGeEfficiency/build
+CMAKE_BINARY_DIR = /home/apricot/Documents/Science/05Simulations/20240822Efficiency/build
 
 # Utility rule file for B1.
 
@@ -84,6 +84,6 @@ CMakeFiles/B1.dir/clean:
 .PHONY : CMakeFiles/B1.dir/clean
 
 CMakeFiles/B1.dir/depend:
-	cd /home/apricot/Desktop/HPGeEfficiency/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/apricot/Desktop/HPGeEfficiency /home/apricot/Desktop/HPGeEfficiency /home/apricot/Desktop/HPGeEfficiency/build /home/apricot/Desktop/HPGeEfficiency/build /home/apricot/Desktop/HPGeEfficiency/build/CMakeFiles/B1.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/apricot/Documents/Science/05Simulations/20240822Efficiency/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/apricot/Documents/Science/05Simulations/20240822Efficiency /home/apricot/Documents/Science/05Simulations/20240822Efficiency /home/apricot/Documents/Science/05Simulations/20240822Efficiency/build /home/apricot/Documents/Science/05Simulations/20240822Efficiency/build /home/apricot/Documents/Science/05Simulations/20240822Efficiency/build/CMakeFiles/B1.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/B1.dir/depend
 
