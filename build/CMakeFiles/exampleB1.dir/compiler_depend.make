@@ -5712,8 +5712,11 @@ exampleB1: /opt/Geant4/Geant4-v11.3.0/lib/libG4FR.so \
   /usr/lib/libgssapi_krb5.so.2 \
   /usr/lib/libharfbuzz.so.0 \
   /usr/lib/libicudata.so.75 \
+  /usr/lib/libicudata.so.76 \
   /usr/lib/libicui18n.so.75 \
+  /usr/lib/libicui18n.so.76 \
   /usr/lib/libicuuc.so.75 \
+  /usr/lib/libicuuc.so.76 \
   /usr/lib/libidn2.so.0 \
   /usr/lib/libjpeg.so.8 \
   /usr/lib/libk5crypto.so.3 \
@@ -5756,7 +5759,7 @@ exampleB1: /opt/Geant4/Geant4-v11.3.0/lib/libG4FR.so \
   /usr/lib32/libcurl.so.4 \
   /usr/lib32/libgomp.so.1 \
   /usr/lib32/libgssapi_krb5.so.2 \
-  /usr/lib32/libicudata.so.75 \
+  /usr/lib32/libicudata.so.76 \
   /usr/lib32/libidn2.so.0 \
   /usr/lib32/libk5crypto.so.3 \
   /usr/lib32/libkeyutils.so.1 \
@@ -5856,6 +5859,8 @@ CMakeFiles/exampleB1.dir/src/ActionInitialization.cc.o:
 /usr/lib/libkrb5.so.3:
 
 /usr/lib/libjpeg.so.8:
+
+/usr/lib/libicudata.so.76:
 
 /usr/lib/libicudata.so.75:
 
@@ -6597,6 +6602,8 @@ CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o:
 
 /opt/Geant4/Geant4-v11.3.0/include/Geant4/G4ElementVector.hh:
 
+/usr/lib/libicui18n.so.76:
+
 /opt/Geant4/Geant4-v11.3.0/include/Geant4/G4Element.hh:
 
 /opt/Geant4/Geant4-v11.3.0/include/Geant4/G4ElectronOccupancy.hh:
@@ -6608,6 +6615,8 @@ CMakeFiles/exampleB1.dir/src/PrimaryGeneratorAction.cc.o:
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/bmi2intrin.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/14.2.1/include/rdseedintrin.h:
+
+/usr/lib32/libicudata.so.76:
 
 /opt/Geant4/Geant4-v11.3.0/include/Geant4/CLHEP/Random/RandBit.icc:
 
@@ -7483,6 +7492,8 @@ CMakeFiles/exampleB1.dir/src/HistoManager.cc.o:
 
 /opt/Geant4/Geant4-v11.3.0/include/Geant4/G4PolyconeSide.hh:
 
+/usr/lib/libicuuc.so.76:
+
 /opt/Geant4/Geant4-v11.3.0/include/Geant4/G4TrajectoryContainer.hh:
 
 /opt/Geant4/Geant4-v11.3.0/include/Geant4/G4Polyhedra.hh:
@@ -7920,8 +7931,6 @@ CMakeFiles/exampleB1.dir/exampleB1.cc.o:
 /usr/include/c++/14.2.1/stdexcept:
 
 /opt/Geant4/Geant4-v11.3.0/include/Geant4/tools/histo/base_histo:
-
-/usr/lib32/libicudata.so.75:
 
 /opt/Geant4/Geant4-v11.3.0/include/Geant4/G4Para.icc:
 

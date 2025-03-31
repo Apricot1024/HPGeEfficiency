@@ -110,8 +110,8 @@ exampleB1: \
   /usr/lib/libmd4c.so.0 \
   /usr/lib32/libGLdispatch.so.0 \
   /usr/lib/libGLdispatch.so.0 \
-  /usr/lib/libicui18n.so.75 \
-  /usr/lib/libicuuc.so.75 \
+  /usr/lib/libicui18n.so.76 \
+  /usr/lib/libicuuc.so.76 \
   /usr/lib/libsystemd.so.0 \
   /usr/lib/libdouble-conversion.so.3 \
   /usr/lib/libb2.so.1 \
@@ -121,13 +121,16 @@ exampleB1: \
   /usr/lib/libnsl.so.3 \
   /usr/lib32/libcurl.so.4 \
   /usr/lib/libcurl.so.4 \
-  /usr/lib32/libicudata.so.75 \
-  /usr/lib/libicudata.so.75 \
+  /usr/lib32/libicudata.so.76 \
+  /usr/lib/libicudata.so.76 \
   /usr/lib32/libbz2.so.1.0 \
   /usr/lib/libbz2.so.1.0 \
   /usr/lib32/libbrotlidec.so.1 \
   /usr/lib/libbrotlidec.so.1 \
   /usr/lib/libQt6OpenGL.so.6 \
+  /usr/lib/libicui18n.so.75 \
+  /usr/lib/libicuuc.so.75 \
+  /usr/lib/libicudata.so.75 \
   /usr/lib32/libXau.so.6 \
   /usr/lib/libXau.so.6 \
   /usr/lib/libXrender.so.1 \
@@ -397,9 +400,9 @@ CMakeFiles/exampleB1.dir/src/SteppingAction.cc.o:
 
 /usr/lib/libGLdispatch.so.0:
 
-/usr/lib/libicui18n.so.75:
+/usr/lib/libicui18n.so.76:
 
-/usr/lib/libicuuc.so.75:
+/usr/lib/libicuuc.so.76:
 
 /usr/lib/libsystemd.so.0:
 
@@ -419,9 +422,9 @@ CMakeFiles/exampleB1.dir/src/SteppingAction.cc.o:
 
 /usr/lib/libcurl.so.4:
 
-/usr/lib32/libicudata.so.75:
+/usr/lib32/libicudata.so.76:
 
-/usr/lib/libicudata.so.75:
+/usr/lib/libicudata.so.76:
 
 /usr/lib32/libbz2.so.1.0:
 
@@ -432,6 +435,12 @@ CMakeFiles/exampleB1.dir/src/SteppingAction.cc.o:
 /usr/lib/libbrotlidec.so.1:
 
 /usr/lib/libQt6OpenGL.so.6:
+
+/usr/lib/libicui18n.so.75:
+
+/usr/lib/libicuuc.so.75:
+
+/usr/lib/libicudata.so.75:
 
 /usr/lib32/libXau.so.6:
 

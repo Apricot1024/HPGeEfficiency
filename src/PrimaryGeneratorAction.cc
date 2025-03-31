@@ -96,15 +96,16 @@ void PrimaryGeneratorAction::GeneratePrimaries(G4Event *anEvent)
   // fParticleGun->SetParticleMomentumDirection(G4RandomDirection());
   // fParticleGun->SetParticlePosition(G4ThreeVector(x0, y0, 2 * dTAlpDz - dBoAlpDz * 2 - dAlHolderpDz * 2 - dSourceHolderpDz * 2 - 0.1));
   // #endif
-  #if 0
-  fParticleGun->SetParticleMomentumDirection(G4RandomDirection());
-  fParticleGun->SetParticlePosition(G4ThreeVector(x0, y0, 2 * dTAlpDz - dBoAlpDz * 2 - dAlHolderpDz * 2 - 0.5));
-  // fParticleGun->SetParticlePosition(G4ThreeVector(x0, y0, 2 * dTAlpDz - dBoAlpDz * 2 - dAlHolderpDz * 2 - 0.5 - 10));
-  // fParticleGun->SetParticlePosition(G4ThreeVector(x0, y0, - 2 * dupTAlpDz - 2));
-  #endif
   #if 1
   fParticleGun->SetParticleMomentumDirection(G4RandomDirection());
+  // fParticleGun->SetParticlePosition(G4ThreeVector(x0, y0, 2 * dTAlpDz - dBoAlpDz * 2 - dAlHolderpDz * 2 - 0.5));
+  fParticleGun->SetParticlePosition(G4ThreeVector(x0, y0, 2 * dTAlpDz - dAlHolderpDz * 2 - 0.1));
+  // fParticleGun->SetParticlePosition(G4ThreeVector(x0, y0, - 2 * dupTAlpDz - 2));
+  #endif
+  #if 0
+  fParticleGun->SetParticleMomentumDirection(G4RandomDirection());
   fParticleGun->SetParticlePosition(G4ThreeVector(x0, y0, -2 * dupTAlpDz - 0.5 * CLHEP::mm));
+  // fParticleGun->SetParticlePosition(G4ThreeVector(x0, y0, -2 * dupTAlpDz));
   // fParticleGun->SetParticlePosition(G4ThreeVector(x0, y0, 2 * dTAlpDz - dBoAlpDz * 2 - dAlHolderpDz * 2 - 0.5 - 10));
   // fParticleGun->SetParticlePosition(G4ThreeVector(x0, y0, - 2 * dupTAlpDz - 2));
   #endif

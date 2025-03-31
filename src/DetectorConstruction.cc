@@ -73,6 +73,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
   G4Material* g4matFe = nist->FindOrBuildMaterial("G4_Fe");
   G4Material* g4matPb = nist->FindOrBuildMaterial("G4_Pb");
   G4Material* g4matCd = nist->FindOrBuildMaterial("G4_Cd");
+  G4Material* g4matTa = nist->FindOrBuildMaterial("G4_Ta");
 
   // Envelope parameters
   //
@@ -262,10 +263,10 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
     checkOverlaps);           // overlaps checking
   // const bool sourceflag = true;
 
-  #if 0
+  #if 1
   // Fe source holder of Target
   G4double dSourceHolderpRMin = 0;
-  G4double dSourceHolderpRMax = 11 / 2.0 * CLHEP::mm;
+  G4double dSourceHolderpRMax = 13.7 / 2.0 * CLHEP::mm;
   auto solidSourceHolder = new G4Tubs("SourceHolder",
     dSourceHolderpRMin,
     dSourceHolderpRMax,
@@ -275,7 +276,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
 
   G4double poszSourceHolder = dTAlpDz - dWellpDz + dTAlpDz - 2 * dAlHolderpDz - dSourceHolderpDz;
   G4ThreeVector posSourceHolder = G4ThreeVector(0, 0, poszSourceHolder);
-  G4Material* SourceHolder_mat = g4matFe;
+  G4Material* SourceHolder_mat = g4matTa;
   auto logicSourceHolder = new G4LogicalVolume(solidSourceHolder,  // its solid
   SourceHolder_mat,                                        // its material
   "SourceHolder");                                         // its name

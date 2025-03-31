@@ -5722,8 +5722,11 @@ exampleB1
  /usr/lib/libgssapi_krb5.so.2
  /usr/lib/libharfbuzz.so.0
  /usr/lib/libicudata.so.75
+ /usr/lib/libicudata.so.76
  /usr/lib/libicui18n.so.75
+ /usr/lib/libicui18n.so.76
  /usr/lib/libicuuc.so.75
+ /usr/lib/libicuuc.so.76
  /usr/lib/libidn2.so.0
  /usr/lib/libjpeg.so.8
  /usr/lib/libk5crypto.so.3
@@ -5766,7 +5769,7 @@ exampleB1
  /usr/lib32/libcurl.so.4
  /usr/lib32/libgomp.so.1
  /usr/lib32/libgssapi_krb5.so.2
- /usr/lib32/libicudata.so.75
+ /usr/lib32/libicudata.so.76
  /usr/lib32/libidn2.so.0
  /usr/lib32/libk5crypto.so.3
  /usr/lib32/libkeyutils.so.1
