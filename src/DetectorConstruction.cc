@@ -236,37 +236,37 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
 
 
 
-  // Al placeholder of Target
-  G4double dHolderpRMin = 0;
-  G4double dHolderpRMax = 15 / 2.0 * CLHEP::mm;
-  auto solidHolder = new G4Tubs("Holder",
-    dHolderpRMin,
-    dHolderpRMax,
-    dAlHolderpDz,
-    0,
-    2*CLHEP::pi);
+  // // Al placeholder of Target
+  // G4double dHolderpRMin = 0;
+  // G4double dHolderpRMax = 15 / 2.0 * CLHEP::mm;
+  // auto solidHolder = new G4Tubs("Holder",
+  //   dHolderpRMin,
+  //   dHolderpRMax,
+  //   dAlHolderpDz,
+  //   0,
+  //   2*CLHEP::pi);
 
-  G4double poszHolder = dTAlpDz - dWellpDz + dTAlpDz - dAlHolderpDz;
-  G4ThreeVector posHolder = G4ThreeVector(0, 0, poszHolder);
+  // G4double poszHolder = dTAlpDz - dWellpDz + dTAlpDz - dAlHolderpDz;
+  // G4ThreeVector posHolder = G4ThreeVector(0, 0, poszHolder);
 
-  auto logicHolder = new G4LogicalVolume(solidHolder,  // its solid
-  Window_mat,                                        // its material
-  "Holder");                                         // its name
+  // auto logicHolder = new G4LogicalVolume(solidHolder,  // its solid
+  // Window_mat,                                        // its material
+  // "Holder");                                         // its name
 
-  auto physHolder = new G4PVPlacement(nullptr,  // no rotation
-    posHolder,                     // at position
-    logicHolder,              // its logical volume
-    "Holder",                 // its name
-    logicWell,                 // its mother  volume
-    false,                    // no boolean operation
-    0,                        // copy number
-    checkOverlaps);           // overlaps checking
-  // const bool sourceflag = true;
+  // auto physHolder = new G4PVPlacement(nullptr,  // no rotation
+  //   posHolder,                     // at position
+  //   logicHolder,              // its logical volume
+  //   "Holder",                 // its name
+  //   logicWell,                 // its mother  volume
+  //   false,                    // no boolean operation
+  //   0,                        // copy number
+  //   checkOverlaps);           // overlaps checking
+  // // const bool sourceflag = true;
 
   #if 1
   // Fe source holder of Target
   G4double dSourceHolderpRMin = 0;
-  G4double dSourceHolderpRMax = 13.7 / 2.0 * CLHEP::mm;
+  G4double dSourceHolderpRMax = 15 / 2.0 * CLHEP::mm;
   auto solidSourceHolder = new G4Tubs("SourceHolder",
     dSourceHolderpRMin,
     dSourceHolderpRMax,
@@ -274,7 +274,8 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
     0,
     2*CLHEP::pi);
 
-  G4double poszSourceHolder = dTAlpDz - dWellpDz + dTAlpDz - 2 * dAlHolderpDz - dSourceHolderpDz;
+  // G4double poszSourceHolder = dTAlpDz - dWellpDz + dTAlpDz - 2 * dAlHolderpDz - dSourceHolderpDz;
+  G4double poszSourceHolder = dTAlpDz - dWellpDz + dTAlpDz - 0.1 - dSourceHolderpDz;
   G4ThreeVector posSourceHolder = G4ThreeVector(0, 0, poszSourceHolder);
   G4Material* SourceHolder_mat = g4matTa;
   auto logicSourceHolder = new G4LogicalVolume(solidSourceHolder,  // its solid
@@ -922,7 +923,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct()
   logicWell -> SetVisAttributes(visGe);
   logicWindow -> SetVisAttributes(visAl);
   logicBWindow -> SetVisAttributes(visAl);
-  logicHolder -> SetVisAttributes(visAl);
+  // logicHolder -> SetVisAttributes(visAl);
   logicDeadlayer -> SetVisAttributes(visDl);
   logicBDeadlayer -> SetVisAttributes(visDl);
   logicoutupDeadlayer -> SetVisAttributes(visDl);

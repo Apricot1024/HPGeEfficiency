@@ -63,3 +63,159 @@
 /vis/viewer/set/autoRefresh true
 /vis/viewer/refresh
 /vis/verbose warnings
+/vis/set/touchable World 0 Envelope 0 BoPbshield 0
+/vis/touchable/set/visibility false
+/vis/viewer/refresh
+/vis/scene/notifyHandlers
+/vis/set/touchable World 0 Envelope 0 upPbshield 0
+/vis/touchable/set/visibility false
+/vis/viewer/refresh
+/vis/scene/notifyHandlers
+/vis/set/touchable World 0 Envelope 0 TPbshield 0
+/vis/touchable/set/visibility false
+/vis/viewer/refresh
+/vis/scene/notifyHandlers
+/vis/set/touchable World 0 Envelope 0 BoCdshield 0
+/vis/touchable/set/visibility false
+/vis/viewer/refresh
+/vis/scene/notifyHandlers
+/vis/set/touchable World 0 Envelope 0 upCdshield 0
+/vis/touchable/set/visibility false
+/vis/viewer/refresh
+/vis/scene/notifyHandlers
+/vis/set/touchable World 0 Envelope 0 TCdshield 0
+/vis/touchable/set/visibility false
+/vis/viewer/refresh
+/vis/scene/notifyHandlers
+/vis/set/touchable World 0 Envelope 0 BoLBPbshield 0
+/vis/touchable/set/visibility false
+/vis/viewer/refresh
+/vis/scene/notifyHandlers
+/vis/set/touchable World 0 Envelope 0 upLBPbshield 0
+/vis/touchable/set/visibility false
+/vis/viewer/refresh
+/vis/scene/notifyHandlers
+/vis/set/touchable World 0 Envelope 0 TLBPbshield 0
+/vis/touchable/set/visibility false
+/vis/viewer/refresh
+/vis/scene/notifyHandlers
+/vis/set/touchable World 0 Envelope 0 BoOFCushield 0
+/vis/touchable/set/visibility false
+/vis/viewer/refresh
+/vis/scene/notifyHandlers
+/vis/set/touchable World 0 Envelope 0 upOFCushield 0
+/vis/touchable/set/visibility false
+/vis/viewer/refresh
+/vis/scene/notifyHandlers
+/vis/set/touchable World 0 Envelope 0 TOFCushield 0
+/vis/touchable/set/visibility false
+/vis/viewer/refresh
+/vis/scene/notifyHandlers
+/vis/set/touchable World 0 Envelope 0 BoCuEndcap 0
+/vis/touchable/set/visibility false
+/vis/viewer/refresh
+/vis/scene/notifyHandlers
+/vis/set/touchable World 0 Envelope 0 TCuEndcap 0
+/vis/touchable/set/visibility false
+/vis/viewer/refresh
+/vis/scene/notifyHandlers
+/vis/set/touchable World 0 Envelope 0 BoCuCup 0
+/vis/touchable/set/visibility false
+/vis/viewer/refresh
+/vis/scene/notifyHandlers
+/vis/set/touchable World 0 Envelope 0 TCuCup 0
+/vis/touchable/set/visibility false
+/vis/viewer/refresh
+/vis/scene/notifyHandlers
+/vis/set/touchable World 0 Envelope 0 upCuEndcap 0
+/vis/touchable/set/visibility false
+/vis/viewer/refresh
+/vis/scene/notifyHandlers
+/vis/set/touchable World 0 Envelope 0 upCuCup 0
+/vis/touchable/set/visibility false
+/vis/viewer/refresh
+/vis/scene/notifyHandlers
+/vis/set/touchable World 0 Envelope 0 upBoWindow 0
+/vis/touchable/set/visibility false
+/vis/viewer/refresh
+/vis/scene/notifyHandlers
+/vis/set/touchable World 0 Envelope 0 upTWindow 0
+/vis/touchable/set/visibility false
+/vis/viewer/refresh
+/vis/scene/notifyHandlers
+/vis/set/touchable World 0 Envelope 0 Ge 0 Deadlayer 0
+/vis/touchable/set/visibility false
+/vis/viewer/refresh
+/vis/scene/notifyHandlers
+/vis/set/touchable World 0 Envelope 0 Ge 0 BDeadlayer 0
+/vis/touchable/set/visibility false
+/vis/viewer/refresh
+/vis/scene/notifyHandlers
+/vis/set/touchable World 0 Envelope 0 Ge 0 outupDeadlayer 0
+/vis/touchable/set/visibility false
+/vis/viewer/refresh
+/vis/scene/notifyHandlers
+/vis/set/touchable World 0 Envelope 0 Ge 0 outTDeadlayer 0
+/vis/touchable/set/visibility false
+/vis/viewer/refresh
+/vis/scene/notifyHandlers
+/vis/set/touchable World 0 Envelope 0 Ge 0 outBoDeadlayer 0
+/vis/touchable/set/visibility false
+/vis/viewer/refresh
+/vis/scene/notifyHandlers
+/vis/set/touchable World 0 Envelope 0 Ge 0 Well 0 SourceHolder 0
+/vis/touchable/set/visibility false
+/vis/viewer/refresh
+/vis/scene/notifyHandlers
+/vis/set/touchable World 0 Envelope 0 Ge 0 Well 0 SourceHolder 0
+/vis/touchable/set/visibility true
+/vis/viewer/refresh
+/vis/scene/notifyHandlers
+/vis/set/touchable World 0 Envelope 0 Ge 0 Well 0 Window 0
+/vis/touchable/set/visibility false
+/vis/viewer/refresh
+/vis/scene/notifyHandlers
+/vis/set/touchable World 0 Envelope 0 Ge 0 Well 0 Window 0
+/vis/touchable/set/visibility true
+/vis/viewer/refresh
+/vis/scene/notifyHandlers
+/vis/set/touchable World 0 Envelope 0 Ge 0 Well 0 Window 0
+/vis/touchable/set/visibility false
+/vis/viewer/refresh
+/vis/scene/notifyHandlers
+/vis/set/touchable World 0 Envelope 0 Ge 0 Well 0 Window 0
+/vis/touchable/set/visibility true
+/vis/viewer/refresh
+/vis/scene/notifyHandlers
+/vis/set/touchable World 0 Envelope 0 Ge 0 Well 0 BWindow 0
+/vis/touchable/set/visibility false
+/vis/viewer/refresh
+/vis/scene/notifyHandlers
+/vis/set/touchable World 0 Envelope 0 Ge 0 Well 0 BWindow 0
+/vis/touchable/set/visibility true
+/vis/viewer/refresh
+/vis/scene/notifyHandlers
+/vis/set/touchable World 0 Envelope 0 Ge 0 Well 0 Holder 0
+/vis/touchable/set/visibility false
+/vis/viewer/refresh
+/vis/scene/notifyHandlers
+/vis/set/touchable World 0 Envelope 0 Ge 0 Well 0 Holder 0
+/vis/touchable/set/visibility true
+/vis/viewer/refresh
+/vis/scene/notifyHandlers
+/vis/set/touchable World 0 Envelope 0 Ge 0 Well 0 BWindow 0
+/vis/touchable/set/visibility false
+/vis/viewer/refresh
+/vis/scene/notifyHandlers
+/vis/set/touchable World 0 Envelope 0 Ge 0 Well 0 BWindow 0
+/vis/touchable/set/visibility true
+/vis/viewer/refresh
+/vis/scene/notifyHandlers
+/vis/set/touchable World 0 Envelope 0 Ge 0 Well 0 Holder 0
+/vis/touchable/set/visibility false
+/vis/viewer/refresh
+/vis/scene/notifyHandlers
+/vis/set/touchable World 0 Envelope 0 Ge 0 Well 0 Holder 0
+/vis/touchable/set/visibility true
+/vis/viewer/refresh
+/vis/scene/notifyHandlers
